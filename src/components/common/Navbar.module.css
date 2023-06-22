@@ -1,0 +1,12 @@
+.logo img {
+  height: 5rem;
+}
+
+.logo-text {
+  font-size: large;
+}
+
+.navbar-links-container p {
+  margin: 0 1.5rem;
+  cursor: pointer;
+}
