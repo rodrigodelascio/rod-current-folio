@@ -1,0 +1,25 @@
+.section-container {
+  background: #fff;
+  display: flex;
+  left: 0;
+  padding: 2% 8%;
+  position: absolute;
+  width: 100vw;
+  height: 90vh;
+}
+
+.hero-text-container {
+  margin-top: 6%;
+}
+
+.hero-text-container h2 {
+  font-size: 320%;
+  font-weight: 1000;
+  line-height: 120%;
+}
+
+.profile-pic-container {
+  display: flex;
+  position: fixed;
+  right: 25%;
+}

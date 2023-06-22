@@ -3,10 +3,10 @@
 }
 
 .logo-text {
-  font-size: large;
+  font-size: 90%;
 }
 
 .navbar-links-container p {
-  margin: 0 1.5rem;
+  margin: 0 9%;
   cursor: pointer;
 }

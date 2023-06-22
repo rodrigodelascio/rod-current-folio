@@ -4,14 +4,14 @@ import styles from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center px-14 py-8">
+    <div className="flex justify-between items-center py-8">
       <div
         className={`flex flex-row items-center cursor-pointer ${styles.logo}`}
       >
         <a href="#Home">
           <img src={logo} alt="logo" />
         </a>
-        <p className={`ml-5 leading-5 font-black ${styles["logo-text"]}`}>
+        <p className={`ml-5 leading-6 font-black ${styles["logo-text"]}`}>
           <a href="#Home">
             Rodrigo <br />
             De Lascio
