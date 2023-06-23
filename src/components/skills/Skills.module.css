@@ -1,0 +1,9 @@
+.section-container {
+  background: #fcda69;
+  display: flex;
+  position: relative;
+  padding: 12vh 8vw 0 8vw;
+  min-width: 84vw;
+  min-height: 100vh;
+  justify-content: space-between;
+}

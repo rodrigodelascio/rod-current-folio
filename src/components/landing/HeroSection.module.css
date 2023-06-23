@@ -1,10 +1,9 @@
 .section-container {
   background: #fff;
   display: flex;
-  position: absolute;
-  left: 0;
-  padding: 6vh 8vw;
-  min-width: 100vw;
+  position: relative;
+  padding: 12vh 8vw 0 8vw;
+  min-width: 84vw;
   min-height: 90vh;
   justify-content: space-between;
 }
@@ -16,22 +15,22 @@
 .hero-text-container p {
   font-size: 1rem;
   font-weight: 1000;
-  line-height: 2rem;
+  line-height: 3rem;
   color: #000;
 }
 
 .hero-text-container h2 {
   font-size: 3.5rem;
   font-weight: 1000;
-  text-decoration: underline #fcda69 1rem;
-  line-height: 6rem;
+  /* text-decoration: underline #286f6c 0.6rem; */
+  line-height: 4.5rem;
   color: #000;
 }
 
 .hero-text-container h3 {
-  font-size: 3.3rem;
+  font-size: 3.1rem;
   font-weight: 1000;
-  line-height: 6rem;
+  line-height: 4.5rem;
   color: #000;
 }
 
@@ -46,7 +45,7 @@
 .button-contact {
   border: none;
   border-radius: 18px;
-  background: #f26440;
+  background: #286f6c;
   color: #fff;
 }
 
@@ -59,7 +58,7 @@
 }
 
 .button-contact:hover {
-  background: #f26440c2;
+  background: #286f6cc2;
 }
 
 .button-work {
