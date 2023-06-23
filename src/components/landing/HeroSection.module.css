@@ -1,25 +1,127 @@
 .section-container {
   background: #fff;
   display: flex;
-  left: 0;
-  padding: 2% 8%;
   position: absolute;
-  width: 100vw;
-  height: 90vh;
+  left: 0;
+  padding: 6vh 8vw;
+  min-width: 100vw;
+  min-height: 90vh;
+  justify-content: space-between;
 }
 
 .hero-text-container {
-  margin-top: 6%;
+  margin-top: 10vh;
+}
+
+.hero-text-container p {
+  font-size: 1rem;
+  font-weight: 1000;
+  line-height: 2rem;
+  color: #000;
 }
 
 .hero-text-container h2 {
-  font-size: 320%;
+  font-size: 3.5rem;
   font-weight: 1000;
-  line-height: 120%;
+  text-decoration: underline #fcda69 1rem;
+  line-height: 6rem;
+  color: #000;
 }
 
-.profile-pic-container {
+.hero-text-container h3 {
+  font-size: 3.3rem;
+  font-weight: 1000;
+  line-height: 6rem;
+  color: #000;
+}
+
+.hero-text-container button {
+  margin-right: 1.2vw;
+  margin-top: 3vh;
+  padding: 0.9rem 1.1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.button-contact {
+  border: none;
+  border-radius: 18px;
+  background: #f26440;
+  color: #fff;
+}
+
+.airplane {
+  display: inline;
+  margin-left: 0.5rem;
+  margin-bottom: 0.3rem;
+  transform: rotate(-45deg);
+  scale: 105%;
+}
+
+.button-contact:hover {
+  background: #f26440c2;
+}
+
+.button-work {
+  border: none;
+  border-radius: 18px;
+  color: #000;
+}
+
+.arrow {
+  display: inline;
+  scale: 150%;
+  margin-left: 0.5rem;
+  color: #000;
+}
+
+.button-work:hover {
+  background: #e1e1e1a3;
+}
+
+.landing-socials-container {
   display: flex;
-  position: fixed;
-  right: 25%;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.landing-socials-container p {
+  font-size: 0.7rem;
+  color: #000;
+}
+
+.socials-logo-wrapper {
+  width: 4rem;
+  height: 4rem;
+  background: #e1e1e1;
+  border-radius: 50%;
+  margin-left: 2.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.linkedIn {
+  scale: 175%;
+  color: #000;
+}
+
+.gitHub {
+  scale: 225%;
+  color: #000;
+}
+
+.socials-logo-wrapper:hover {
+  background: #e1e1e1c3;
+}
+
+/* .profile-pic-container {
+  background: #f26440;
+} */
+
+.profile-pic {
+  scale: 115%;
+  padding-right: 2.5vw;
+  padding-top: 3vh;
 }

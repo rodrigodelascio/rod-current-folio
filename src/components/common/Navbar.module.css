@@ -1,12 +1,72 @@
-.logo img {
-  height: 5rem;
+.main-navbar-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4vh;
+  z-index: 10;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  flex-direction: row;
+}
+
+.logo-container:hover {
+  opacity: 60%;
+}
+
+.logo-container img {
+  width: 4rem;
 }
 
 .logo-text {
-  font-size: 90%;
+  font-size: 1.2rem;
+  margin-left: 1vw;
+  line-height: 1.4rem;
+  font-weight: 1000;
 }
 
-.navbar-links-container p {
-  margin: 0 9%;
+.navbar-links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-links-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.inner-links-container p {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 2vw;
   cursor: pointer;
+}
+
+.inner-links-container p:hover {
+  text-decoration: underline #fcda69 0.6rem;
+  color: #222222c3;
+}
+
+.cv-button {
+  border: solid 0.1rem;
+  border-radius: 18px;
+  padding: 0.7rem 1.1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.arrow {
+  display: inline;
+  scale: 150%;
+  margin-left: 0.5rem;
+  color: #000;
+}
+
+.cv-button:hover {
+  border: solid #e1e1e1a3 0.1rem;
+  background: #e1e1e1a3;
 }

@@ -1,38 +1,42 @@
 import React from "react";
 import logo from "../../assets/images/rodLogoBlack.png";
+import { GoArrowUpRight } from "react-icons/go";
 import styles from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center py-8">
-      <div
-        className={`flex flex-row items-center cursor-pointer ${styles.logo}`}
-      >
+    <div className={styles["main-navbar-container"]}>
+      <div className={styles["logo-container"]}>
         <a href="#Home">
           <img src={logo} alt="logo" />
         </a>
-        <p className={`ml-5 leading-6 font-black ${styles["logo-text"]}`}>
+        <p className={styles["logo-text"]}>
           <a href="#Home">
             Rodrigo <br />
             De Lascio
           </a>
         </p>
       </div>
-      <div className="flex flex-1 justify-center items-center">
-        <div className={`flex flex-row ${styles["navbar-links-container"]}`}>
+      <div className={styles["navbar-links-container"]}>
+        <div className={styles["inner-links-container"]}>
           <p>
             <a href="#About">About</a>
           </p>
-          <p>
+          {/* <p>
             <a href="#Skills">Skills</a>
-          </p>
+          </p> */}
           <p>
-            <a href="#Project">Project</a>
+            <a href="#Projects">Projects</a>
           </p>
           <p>
             <a href="#Contact">Contact</a>
           </p>
         </div>
+      </div>
+      <div>
+        <button className={styles["cv-button"]}>
+          My CV <GoArrowUpRight className={styles.arrow} />
+        </button>
       </div>
     </div>
   );
