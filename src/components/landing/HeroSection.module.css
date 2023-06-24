@@ -9,7 +9,7 @@
 }
 
 .hero-text-container {
-  margin-top: 10vh;
+  margin-top: 7vh;
 }
 
 .hero-text-container p {
@@ -22,7 +22,6 @@
 .hero-text-container h2 {
   font-size: 3.5rem;
   font-weight: 1000;
-  /* text-decoration: underline #286f6c 0.6rem; */
   line-height: 4.5rem;
   color: #000;
 }
@@ -115,12 +114,8 @@
   background: #e1e1e1c3;
 }
 
-/* .profile-pic-container {
-  background: #f26440;
-} */
-
 .profile-pic {
   scale: 115%;
   padding-right: 2.5vw;
-  padding-top: 3vh;
+  margin-top: -3vh;
 }

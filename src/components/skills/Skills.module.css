@@ -2,8 +2,152 @@
   background: #fcda69;
   display: flex;
   position: relative;
-  padding: 12vh 8vw 0 8vw;
+  padding: 8vh 8vw 0 8vw;
   min-width: 84vw;
   min-height: 100vh;
   justify-content: space-between;
+}
+
+.hero-text-container {
+  margin-top: 0.5vh;
+}
+
+.hero-text-container p {
+  font-size: 1rem;
+  font-weight: 1000;
+  line-height: 3rem;
+  color: #000;
+}
+
+.hero-text-container h2 {
+  font-size: 3.5rem;
+  font-weight: 1000;
+  line-height: 4.5rem;
+  color: #000;
+}
+
+.hero-text-container h3 {
+  font-size: 3.1rem;
+  font-weight: 1000;
+  line-height: 4.5rem;
+  color: #000;
+}
+
+.skills-section-container {
+  margin-top: 8vh;
+}
+
+.skills-section-container h4 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #000;
+  margin-bottom: 1vh;
+}
+
+.skills-cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40vw;
+}
+
+.skills-card {
+  border: none;
+  border-radius: 5px;
+  background: #000;
+  color: #fff;
+  margin-right: 1vw;
+  margin-top: 3vh;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.experience-section-container {
+  margin-top: 0.5vh;
+  width: 35vw;
+}
+
+.experience-section-container h4 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #000;
+  margin-bottom: 1vh;
+}
+
+.experience-inner-wrapper {
+  margin-top: 4vh;
+  padding-top: 2vh;
+  border-top: solid #000 0.15rem;
+}
+
+.experience-inner-wrapper h5 {
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: #000;
+}
+
+.experience-inner-wrapper h5 span {
+  margin-right: 2vw;
+}
+
+.experience-inner-wrapper p {
+  color: #000;
+  margin-top: 1vh;
+}
+
+.transferrable-skills-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.transferrable-skills-card {
+  border: none;
+  border-radius: 5px;
+  background: #8873ef;
+  color: #fff;
+  margin-right: 0.6vw;
+  margin-top: 1vh;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.cv-button-container {
+  display: flex;
+  margin-top: 10vh;
+  background: #000;
+  color: #fff;
+  border-radius: 50%;
+  height: 7rem;
+  width: 7rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  position: absolute;
+  right: 22vw;
+  top: 77vh;
+}
+
+.cv-button-wrapper {
+  border: dashed #8873ef 0.1rem;
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  display: inline;
+  scale: 150%;
+  margin-left: 0.1rem;
+  color: #8873ef;
+}
+
+.cv-button-container:hover {
+  background: #393939;
+  cursor: pointer;
 }
