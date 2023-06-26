@@ -1,6 +1,8 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import rodWeather from "./../../assets/images/rodWeather.png";
+import rodWeather from "./../../assets/images/rodWeatherMockup.png";
+import rodKrypto from "./../../assets/images/rodKrypto.png";
+import rodFlix from "./../../assets/images/rodFlixMockup.png";
 import styles from "./LatestProjects.module.css";
 import { GoArrowUpRight } from "react-icons/go";
 
@@ -32,14 +34,14 @@ const LatestProjects = () => {
             projectTags={
               "HTML | CSS | JavaScript | CoinPaprika API | CoinGecko API | ExchangeRate API "
             }
-            cardImage={<img src={rodWeather} alt="rodWeather app mockup" />}
+            cardImage={<img src={rodKrypto} alt="rodWeather app mockup" />}
           />
           <ProjectCard
             className={thirdCard}
             projectName={"RodFlix"}
             projectDescription={"Database with CRUD"}
             projectTags={"HTML | CSS | Python | SQLite "}
-            cardImage={<img src={rodWeather} alt="rodWeather app mockup" />}
+            cardImage={<img src={rodFlix} alt="rodWeather app mockup" />}
           />
         </div>
         <div className={styles["button-container"]}>

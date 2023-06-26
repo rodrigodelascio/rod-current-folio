@@ -1,8 +1,10 @@
 .card-container {
+  position: relative;
   border-radius: 18px;
   width: 25vw;
   height: 55vh;
   padding-top: 1rem;
+  overflow: hidden;
 }
 
 .card-container h4 {
@@ -20,8 +22,13 @@
 }
 
 .card-img {
-  margin-top: 0.5rem;
-  scale: 90%;
+  max-width: 100%;
+  height: auto;
+  transform: rotate(-25deg);
+  position: absolute;
+  bottom: 0%;
+  right: -15%;
+  opacity: 85%;
 }
 
 .card-container:hover {

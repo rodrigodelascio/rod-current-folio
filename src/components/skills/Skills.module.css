@@ -120,23 +120,22 @@
   background: #000;
   color: #fff;
   border-radius: 50%;
-  height: 7rem;
-  width: 7rem;
+  height: 8rem;
+  width: 8rem;
   align-items: center;
   justify-content: center;
   font-size: 0.7rem;
   position: absolute;
-  bottom: -4%;
-  right: 24%;
-  overflow: visible;
+  bottom: 4vh;
+  right: 8vw;
   z-index: 10;
 }
 
 .cv-button-wrapper {
   border: dashed #8873ef 0.1rem;
   border-radius: 50%;
-  height: 6rem;
-  width: 6rem;
+  height: 6.8rem;
+  width: 6.8rem;
   display: flex;
   align-items: center;
   justify-content: center;

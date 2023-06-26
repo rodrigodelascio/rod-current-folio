@@ -117,16 +117,16 @@
   justify-content: center;
   font-size: 0.7rem;
   position: absolute;
-  bottom: 7%;
-  right: 15.5%;
+  bottom: 4vh;
+  right: 8vw;
   z-index: 10;
 }
 
 .button-wrapper {
   border: dashed #8873ef 0.1rem;
   border-radius: 50%;
-  height: 6.5rem;
-  width: 6.5rem;
+  height: 6.8rem;
+  width: 6.8rem;
   display: flex;
   align-items: center;
   justify-content: center;
