@@ -32,3 +32,114 @@
   line-height: 4.5rem;
   color: #000;
 }
+
+.cards-container {
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 84vw;
+}
+
+.first-card {
+  background: #286f6c;
+}
+
+.first-card h4 {
+  color: #fff;
+}
+
+.first-card h5 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+}
+
+.first-card p {
+  color: #fff;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+}
+
+.second-card {
+  background: #fcda69;
+  margin-top: -15vh;
+}
+
+.second-card h4 {
+  color: #fff;
+}
+
+.second-card h5 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+}
+
+.second-card p {
+  color: #fff;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+}
+.third-card {
+  background: #8873ef;
+  margin-top: -30vh;
+}
+
+.third-card h4 {
+  color: #fff;
+}
+
+.third-card h5 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+}
+
+.third-card p {
+  color: #fff;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+}
+
+.cv-button-container {
+  display: flex;
+  margin-top: 10vh;
+  background: #000;
+  color: #fff;
+  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  position: absolute;
+  bottom: 7%;
+  right: 15.5%;
+  z-index: 10;
+}
+
+.cv-button-wrapper {
+  border: dashed #8873ef 0.1rem;
+  border-radius: 50%;
+  height: 6.5rem;
+  width: 6.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  display: inline;
+  scale: 150%;
+  margin-left: 0.1rem;
+  color: #8873ef;
+}
+
+.cv-button-container:hover {
+  background: #393939;
+  cursor: pointer;
+}

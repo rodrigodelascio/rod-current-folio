@@ -1,0 +1,29 @@
+.card-container {
+  border-radius: 18px;
+  width: 25vw;
+  height: 55vh;
+  padding-top: 1rem;
+}
+
+.card-container h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0 2rem;
+}
+
+.card-container h5 {
+  padding: 0 2rem;
+}
+
+.card-container p {
+  padding: 0 2rem;
+}
+
+.card-img {
+  margin-top: 1rem;
+}
+
+.card-container:hover {
+  opacity: 75%;
+  cursor: pointer;
+}
