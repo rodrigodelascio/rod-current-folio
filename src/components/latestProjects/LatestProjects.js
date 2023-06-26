@@ -42,8 +42,8 @@ const LatestProjects = () => {
             cardImage={<img src={rodWeather} alt="rodWeather app mockup" />}
           />
         </div>
-        <div className={styles["cv-button-container"]}>
-          <div className={styles["cv-button-wrapper"]}>
+        <div className={styles["button-container"]}>
+          <div className={styles["button-wrapper"]}>
             <div>
               All projects <GoArrowUpRight className={styles.arrow} />
             </div>

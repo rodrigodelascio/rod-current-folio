@@ -105,7 +105,7 @@
   line-height: 1.5rem;
 }
 
-.cv-button-container {
+.button-container {
   display: flex;
   margin-top: 10vh;
   background: #000;
@@ -122,7 +122,7 @@
   z-index: 10;
 }
 
-.cv-button-wrapper {
+.button-wrapper {
   border: dashed #8873ef 0.1rem;
   border-radius: 50%;
   height: 6.5rem;
@@ -139,7 +139,7 @@
   color: #8873ef;
 }
 
-.cv-button-container:hover {
+.button-container:hover {
   background: #393939;
   cursor: pointer;
 }
