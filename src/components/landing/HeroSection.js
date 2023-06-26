@@ -34,6 +34,17 @@ const HeroSection = () => {
           className={styles["profile-pic"]}
           alt="rodrigo de lascio"
         />
+        <p>
+          <em>
+            "It ain't about how hard you hit.
+            <br />
+            It's about how hard you can get
+            <br />
+            hit and keep moving forward",
+          </em>
+          <br />
+          Rocky Balboa
+        </p>
       </div>
     </div>
   );

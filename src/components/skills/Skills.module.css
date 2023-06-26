@@ -65,7 +65,7 @@
 
 .experience-section-container {
   margin-top: 0.5vh;
-  width: 35vw;
+  width: 40vw;
 }
 
 .experience-section-container h4 {
@@ -126,8 +126,10 @@
   justify-content: center;
   font-size: 0.7rem;
   position: absolute;
-  right: 22vw;
-  top: 77vh;
+  bottom: -4%;
+  right: 24%;
+  overflow: visible;
+  z-index: 10;
 }
 
 .cv-button-wrapper {

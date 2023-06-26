@@ -77,9 +77,7 @@ const Skills = () => {
           </h5>
           <p>Transferrable skills:</p>
           <div className={styles["transferrable-skills-wrapper"]}>
-            <div className={styles["transferrable-skills-card"]}>
-              Calculations
-            </div>
+            <div className={styles["transferrable-skills-card"]}>Maths</div>
             <div className={styles["transferrable-skills-card"]}>
               Problem Solving
             </div>

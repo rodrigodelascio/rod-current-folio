@@ -2,6 +2,7 @@
   background: #fff;
   display: flex;
   position: relative;
+  margin-top: 5vh;
   padding: 12vh 8vw 0 8vw;
   min-width: 84vw;
   min-height: 90vh;
@@ -9,7 +10,7 @@
 }
 
 .hero-text-container {
-  margin-top: 7vh;
+  margin-top: 5vh;
 }
 
 .hero-text-container p {
@@ -91,7 +92,7 @@
 .socials-logo-wrapper {
   width: 4rem;
   height: 4rem;
-  background: #e1e1e1;
+  background: #ededed;
   border-radius: 50%;
   margin-left: 2vw;
   display: flex;
@@ -111,11 +112,19 @@
 }
 
 .socials-logo-wrapper:hover {
-  background: #e1e1e1c3;
+  background: #d6d6d6c3;
+}
+
+.profile-pic-container p {
+  position: absolute;
+  right: 8vw;
+  top: 8vh;
+  text-align: right;
+  font-size: 0.8rem;
 }
 
 .profile-pic {
   scale: 115%;
-  padding-right: 2.5vw;
-  margin-top: -3vh;
+  padding-right: 6vw;
+  margin-top: -6vh;
 }

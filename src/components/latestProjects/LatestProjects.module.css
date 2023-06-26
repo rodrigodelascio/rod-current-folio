@@ -1,0 +1,34 @@
+.section-container {
+  background: #fff;
+  display: flex;
+  position: relative;
+  padding: 8vh 8vw 0 8vw;
+  min-width: 84vw;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+.hero-text-container {
+  margin-top: 0.5vh;
+}
+
+.hero-text-container p {
+  font-size: 1rem;
+  font-weight: 1000;
+  line-height: 3rem;
+  color: #000;
+}
+
+.hero-text-container h2 {
+  font-size: 3.5rem;
+  font-weight: 1000;
+  line-height: 4.5rem;
+  color: #000;
+}
+
+.hero-text-container h3 {
+  font-size: 3.1rem;
+  font-weight: 1000;
+  line-height: 4.5rem;
+  color: #000;
+}

@@ -2,8 +2,8 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 0 8vw;
-  padding-top: 4vh;
+  padding: 3vh 8vw 2vh 8vw;
+  background: #fff;
 }
 
 .logo-container {
@@ -56,11 +56,12 @@
 }
 
 .cv-button {
-  border: solid 0.01rem;
+  border: solid #000 0.01rem;
   border-radius: 18px;
   padding: 0.7rem 1.1rem;
   font-size: 0.8rem;
   font-weight: 500;
+  background: #fff;
 }
 
 .arrow {
@@ -71,6 +72,6 @@
 }
 
 .cv-button:hover {
-  border: solid #e1e1e1a3 0.1rem;
+  border: solid #e1e1e1a3 0.01rem;
   background: #e1e1e1a3;
 }
