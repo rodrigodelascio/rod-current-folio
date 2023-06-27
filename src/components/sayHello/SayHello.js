@@ -40,7 +40,16 @@ const SayHello = () => {
           <div className={styles["button-wrapper"]}>
             <GoArrowUpRight className={styles.arrow} />
           </div>
-          <div className={styles.shape}></div>
+          {/* <div className={styles.shape}></div> */}
+          <div className={styles.quote}>
+            <p>
+              <em>
+                "I am the master of my fate, <br />I am the captain of my soul",
+              </em>
+              <br />
+              William Ernest Henley
+            </p>
+          </div>
         </div>
       </div>
     </div>

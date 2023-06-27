@@ -62,9 +62,8 @@
 }
 
 .button-work {
-  border: none;
-  border-radius: 18px;
   color: #000;
+  border-radius: 18px;
 }
 
 .arrow {
@@ -75,7 +74,11 @@
 }
 
 .button-work:hover {
-  background: #e1e1e1a3;
+  color: #8873ef;
+}
+
+.button-work:hover > .arrow {
+  color: #8873ef;
 }
 
 .landing-socials-container {

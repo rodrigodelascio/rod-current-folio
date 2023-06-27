@@ -87,6 +87,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: hidden;
 }
 
 .round-wrapper p {
@@ -121,4 +122,14 @@
   transform: rotate(18deg);
   border-top: #000 solid 0.1rem;
   width: 20rem;
+}
+
+.quote {
+  position: absolute;
+  bottom: 15%;
+  text-align: right;
+}
+
+.quote p {
+  font-size: 0.8rem;
 }

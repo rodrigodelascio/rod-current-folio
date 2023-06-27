@@ -72,6 +72,10 @@
 }
 
 .cv-button:hover {
-  border: solid #e1e1e1a3 0.01rem;
-  background: #e1e1e1a3;
+  border: solid #8873ef 0.01rem;
+  color: #8873ef;
+}
+
+.cv-button:hover > .arrow {
+  color: #8873ef;
 }
