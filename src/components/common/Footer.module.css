@@ -1,0 +1,41 @@
+.border {
+  border-top: solid #000 0.15rem;
+  background: #fcda69;
+  position: absolute;
+  left: 8%;
+  right: 8%;
+}
+
+.main-footer-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 3.5vh 8vw 8vh 8vw;
+  background: #fcda69;
+}
+
+.logo-copyright-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-footer-container img {
+  width: 2rem;
+  margin-right: 1.5rem;
+}
+
+.main-footer-container img:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.main-footer-container p {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.email:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
