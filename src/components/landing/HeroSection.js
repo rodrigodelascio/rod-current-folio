@@ -12,12 +12,16 @@ const HeroSection = () => {
         <p>Hi there, my name is</p>
         <h2>Rodrigo De Lascio</h2>
         <h3>Web Developer</h3>
-        <button className={styles["button-contact"]}>
-          Let's Talk <GoPaperAirplane className={styles.airplane} />
-        </button>
-        <button className={styles["button-work"]}>
-          My Work <GoArrowUpRight className={styles.arrow} />
-        </button>
+
+        <div className={styles["hero-buttons-container"]}>
+          <button className={styles["button-contact"]}>
+            Let's Talk <GoPaperAirplane className={styles.airplane} />
+          </button>
+          <button className={styles["button-work"]}>
+            My Work <GoArrowUpRight className={styles.arrow} />
+          </button>
+        </div>
+
         <div className={styles["landing-socials-container"]}>
           <p>Check Out My</p>
           <div className={styles["socials-logo-wrapper"]}>
@@ -28,12 +32,8 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+
       <div className={styles["profile-pic-container"]}>
-        <img
-          src={profilePicture}
-          className={styles["profile-pic"]}
-          alt="rodrigo de lascio"
-        />
         <p>
           <em>
             "It ain't about how hard you hit.
@@ -45,6 +45,11 @@ const HeroSection = () => {
           <br />
           Rocky Balboa
         </p>
+        <img
+          src={profilePicture}
+          className={styles["profile-pic"]}
+          alt="rodrigo de lascio"
+        />
       </div>
     </div>
   );

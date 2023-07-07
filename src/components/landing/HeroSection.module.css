@@ -2,7 +2,7 @@
   background: #fff;
   display: flex;
   position: relative;
-  margin-top: 5vh;
+  margin-top: 3vh;
   padding: 12vh 8vw 0 8vw;
   min-width: 84vw;
   min-height: 90vh;
@@ -10,7 +10,9 @@
 }
 
 .hero-text-container {
-  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
 }
 
 .hero-text-container p {
@@ -34,12 +36,19 @@
   color: #000;
 }
 
+.hero-buttons-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .hero-text-container button {
   margin-right: 1.2vw;
   margin-top: 3vh;
   padding: 0.9rem 1.1rem;
   font-size: 0.8rem;
   font-weight: 500;
+  width: 7.5rem;
+  height: 3.5rem;
 }
 
 .button-contact {
@@ -118,16 +127,159 @@
   background: #d6d6d6c3;
 }
 
+.profile-pic-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .profile-pic-container p {
-  position: absolute;
-  right: 8vw;
-  top: 8vh;
   text-align: right;
   font-size: 0.8rem;
 }
 
 .profile-pic {
-  scale: 115%;
+  min-width: 45vw;
   padding-right: 6vw;
-  margin-top: -6vh;
+  margin-top: -12vh;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+  .hero-text-container h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .hero-text-container h3 {
+    font-size: 2.6rem;
+    line-height: 4rem;
+  }
+
+  .profile-pic {
+    padding-right: 5vw;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hero-text-container p {
+    font-size: 0.8rem;
+    line-height: 2.5rem;
+  }
+
+  .hero-text-container h2 {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+
+  .hero-text-container h3 {
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+  }
+
+  .profile-pic-container p {
+    text-align: right;
+    font-size: 0.7rem;
+  }
+
+  .profile-pic {
+    margin-top: -7.5vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-container {
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 6vh;
+  }
+
+  .hero-text-container {
+    width: 84vw;
+  }
+
+  .hero-text-container p {
+    font-size: 0.8rem;
+    line-height: 2rem;
+  }
+
+  .hero-text-container h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .hero-text-container h3 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .landing-socials-container {
+    display: none;
+  }
+
+  .profile-pic-container {
+    width: 84vw;
+  }
+
+  .profile-pic {
+    margin-top: -12.5vh;
+  }
+
+  .profile-pic-container p {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero-text-container button {
+    margin-right: 0.5vw;
+    margin-top: 2vh;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.6rem;
+    width: 6rem;
+    height: 3rem;
+  }
+
+  .profile-pic-container p {
+    font-size: 0.65rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section-container {
+    justify-content: unset;
+  }
+
+  .hero-text-container {
+    width: 94vw;
+  }
+
+  .hero-text-container p {
+    font-size: 0.8rem;
+    line-height: 2rem;
+  }
+
+  .hero-text-container h2 {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+
+  .hero-text-container h3 {
+    font-size: 1rem;
+    line-height: 3rem;
+  }
+
+  .profile-pic-container {
+    width: 94vw;
+    margin-top: 1.5vh;
+  }
+
+  .profile-pic-container p {
+    font-size: 0.6rem;
+    padding-top: 1.5vh;
+  }
+
+  .profile-pic {
+    padding-top: 8.5vh;
+  }
 }
