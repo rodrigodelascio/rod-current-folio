@@ -70,6 +70,12 @@
   background: #286f6cc2;
 }
 
+.button-contact:hover .airplane {
+  transform: rotate(0);
+  transition: all 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  margin-bottom: 0;
+}
+
 .button-work {
   color: #000;
   border-radius: 18px;
@@ -223,6 +229,7 @@
 
   .profile-pic {
     margin-top: -12.5vh;
+    padding-right: 0;
   }
 
   .profile-pic-container p {
@@ -255,18 +262,18 @@
   }
 
   .hero-text-container p {
-    font-size: 0.8rem;
-    line-height: 2rem;
+    font-size: 0.7rem;
+    line-height: 1.5rem;
   }
 
   .hero-text-container h2 {
-    font-size: 1.5rem;
-    line-height: 3rem;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
   }
 
   .hero-text-container h3 {
-    font-size: 1rem;
-    line-height: 3rem;
+    font-size: 1.1rem;
+    line-height: 2.2rem;
   }
 
   .profile-pic-container {

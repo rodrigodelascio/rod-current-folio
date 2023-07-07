@@ -1,6 +1,7 @@
 .main-navbar-container {
   align-items: center;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   padding: 3vh 8vw 2vh 8vw;
   background: #fff;
@@ -39,20 +40,19 @@
   flex-direction: row;
 }
 
-.inner-links-container p {
+.inner-links-container a {
   font-size: 1rem;
   font-weight: 700;
   margin: 0 2vw;
   cursor: pointer;
+  position: relative;
+  text-decoration: none;
 }
 
-.inner-links-container p:hover {
-  color: #286f6cc3;
-  border-left: solid #286f6c 0.15rem;
-  border-right: solid #286f6c 0.15rem;
-  border-radius: 10px;
-  padding: 0 0.6vw;
-  margin: 0 1.3vw;
+.inner-links-container a:hover {
+  color: #8873ef;
+  transition: all 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  text-decoration: underline 0.25rem;
 }
 
 .cv-button {
@@ -78,4 +78,41 @@
 
 .cv-button:hover > .arrow {
   color: #8873ef;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 992px) {
+  .logo-container img {
+    width: 3rem;
+  }
+
+  .logo-text {
+    font-size: 1rem;
+    margin-left: 1vw;
+    line-height: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo-container img {
+    width: 2.5rem;
+  }
+
+  .logo-text {
+    font-size: 1rem;
+    margin-left: 1vw;
+    line-height: 1rem;
+  }
+
+  .navbar-links-container,
+  .cv-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 375px) {
 }

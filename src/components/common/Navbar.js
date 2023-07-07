@@ -19,18 +19,9 @@ const Navbar = () => {
       </div>
       <div className={styles["navbar-links-container"]}>
         <div className={styles["inner-links-container"]}>
-          <p>
-            <a href="#About">About</a>
-          </p>
-          {/* <p>
-            <a href="#Skills">Skills</a>
-          </p> */}
-          <p>
-            <a href="#Projects">Projects</a>
-          </p>
-          <p>
-            <a href="#Contact">Contact</a>
-          </p>
+          <a href="#About">About</a>
+          <a href="#Projects">Projects</a>
+          <a href="#Contact">Contact</a>
         </div>
       </div>
       <div>
