@@ -1,6 +1,5 @@
 .border {
   border-top: solid #000 0.15rem;
-  background: #fcda69;
   position: absolute;
   left: 8%;
   right: 8%;
@@ -38,4 +37,48 @@
 .email:hover {
   opacity: 50%;
   cursor: pointer;
+}
+
+/* Media Queries */
+@media screen and (max-width: 992px) {
+  .main-footer-container p {
+    font-size: 0.7rem;
+  }
+
+  .main-footer-container img {
+    width: 1.8rem;
+    margin-right: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-footer-container img {
+    width: 1.5rem;
+  }
+
+  .email {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main-footer-container {
+    width: 115vw;
+  }
+
+  .border {
+    right: -8%;
+  }
+
+  .main-footer-container img {
+    width: 1.5rem;
+    margin-right: 1.2rem;
+  }
+
+  .main-footer-container p {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
 }

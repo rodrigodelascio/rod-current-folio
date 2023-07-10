@@ -12,25 +12,26 @@
   margin-top: 0.5vh;
 }
 
+.hero-text-container p,
+.hero-text-container h2,
+.hero-text-container h3 {
+  font-weight: 1000;
+  color: #000;
+}
+
 .hero-text-container p {
   font-size: 1rem;
-  font-weight: 1000;
   line-height: 3rem;
-  color: #000;
 }
 
 .hero-text-container h2 {
   font-size: 3.5rem;
-  font-weight: 1000;
   line-height: 4.5rem;
-  color: #000;
 }
 
 .hero-text-container h3 {
   font-size: 3.1rem;
-  font-weight: 1000;
   line-height: 4.5rem;
-  color: #000;
   margin-bottom: 10vh;
 }
 
@@ -137,16 +138,124 @@
 /* Media Queries */
 
 @media screen and (max-width: 1200px) {
+  .icon-wrapper {
+    margin-right: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 992px) {
+  .icon-wrapper {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .icon {
+    scale: 175%;
+  }
+
+  .contact-details p {
+    font-size: 0.7rem;
+  }
+
+  .contact-details h4 {
+    font-size: 0.85rem;
+  }
+
+  .round-container {
+    width: 42.5vw;
+  }
+
+  .round-wrapper {
+    width: 22rem;
+    height: 22rem;
+  }
+
+  .round-wrapper p {
+    font-size: 1rem;
+  }
+
+  .button-wrapper {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .quote p {
+    font-size: 0.75rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  .section-container {
+    padding: 4vh 8vw 0 8vw;
+  }
+
+  .hero-text-container p {
+    font-size: 0.85rem;
+    line-height: 2.5rem;
+  }
+
+  .hero-text-container h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .hero-text-container h3 {
+    font-size: 2.6rem;
+    line-height: 4rem;
+  }
+
+  .contact-details {
+    width: 40vw;
+  }
+
+  .icon-wrapper {
+    display: none;
+  }
+
+  .round-container {
+    width: 35vw;
+  }
+
+  .round-wrapper {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .round-wrapper p {
+    font-size: 0.8rem;
+  }
+
+  .button-wrapper {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .arrow {
+    scale: 200%;
+  }
+
+  .quote p {
+    font-size: 0.5rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
-}
+  .section-container {
+    width: 115vw;
+    padding: 4vh 8vw 0 8vw;
+    flex-direction: column;
+  }
 
-@media screen and (max-width: 375px) {
+  .contact-details {
+    width: 90vw;
+  }
+
+  .icon-wrapper {
+    display: flex;
+    margin-right: 2.5rem;
+  }
+
+  .round-container {
+    display: none;
+  }
 }

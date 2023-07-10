@@ -91,7 +91,6 @@
 }
 
 /* Media Queries */
-
 @media screen and (max-width: 992px) {
   .logo-container img {
     width: 3rem;
