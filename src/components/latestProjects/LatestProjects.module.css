@@ -12,25 +12,26 @@
   margin-top: 0.5vh;
 }
 
+.hero-text-container p,
+.hero-text-container h2,
+.hero-text-container h3 {
+  font-weight: 1000;
+  color: #000;
+}
+
 .hero-text-container p {
   font-size: 1rem;
-  font-weight: 1000;
   line-height: 3rem;
-  color: #000;
 }
 
 .hero-text-container h2 {
   font-size: 3.5rem;
-  font-weight: 1000;
   line-height: 4.5rem;
-  color: #000;
 }
 
 .hero-text-container h3 {
   font-size: 3.1rem;
-  font-weight: 1000;
   line-height: 4.5rem;
-  color: #000;
 }
 
 .cards-container {
@@ -39,27 +40,35 @@
   flex-direction: row;
   justify-content: space-between;
   width: 84vw;
+  flex-wrap: wrap;
 }
 
-.first-card {
-  background: #286f6c;
-}
-
-.first-card h4 {
+.first-card h4,
+.second-card h4,
+.third-card h4 {
   color: #fff;
+  font-size: 1.75rem;
 }
 
-.first-card h5 {
+.first-card h5,
+.second-card h5,
+.third-card h5 {
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   font-weight: 300;
   line-height: 2.5rem;
 }
 
-.first-card p {
+.first-card p,
+.second-card p,
+.third-card p {
   color: #fff;
   font-size: 0.75rem;
   line-height: 1.5rem;
+}
+
+.first-card {
+  background: #286f6c;
 }
 
 .second-card {
@@ -67,42 +76,9 @@
   margin-top: -15vh;
 }
 
-.second-card h4 {
-  color: #fff;
-}
-
-.second-card h5 {
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 300;
-  line-height: 2.5rem;
-}
-
-.second-card p {
-  color: #fff;
-  font-size: 0.75rem;
-  line-height: 1.5rem;
-}
 .third-card {
   background: #8873ef;
   margin-top: -30vh;
-}
-
-.third-card h4 {
-  color: #fff;
-}
-
-.third-card h5 {
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 300;
-  line-height: 2.5rem;
-}
-
-.third-card p {
-  color: #fff;
-  font-size: 0.75rem;
-  line-height: 1.5rem;
 }
 
 .button-container {
@@ -111,13 +87,13 @@
   background: #000;
   color: #fff;
   border-radius: 50%;
-  height: 8rem;
-  width: 8rem;
+  height: 7rem;
+  width: 7rem;
   align-items: center;
   justify-content: center;
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   position: absolute;
-  bottom: 8vh;
+  bottom: 4vh;
   right: 8vw;
   z-index: 10;
 }
@@ -125,8 +101,8 @@
 .button-wrapper {
   border: dashed #8873ef 0.1rem;
   border-radius: 50%;
-  height: 6.8rem;
-  width: 6.8rem;
+  height: 6rem;
+  width: 6rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -145,18 +121,82 @@
 }
 
 /* Media Queries */
-
-@media screen and (max-width: 1200px) {
-}
-
 @media screen and (max-width: 992px) {
+  .second-card {
+    margin-top: 0;
+  }
+
+  .third-card {
+    margin-top: 5vh;
+  }
+
+  .button-container {
+    bottom: 25vh;
+    right: 20vw;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  .section-container {
+    flex-direction: column;
+    padding: 4vh 8vw 0 8vw;
+    margin-bottom: 8vh;
+  }
+
+  .hero-text-container p {
+    font-size: 0.85rem;
+    line-height: 2.5rem;
+  }
+
+  .hero-text-container h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .hero-text-container h3 {
+    font-size: 2.6rem;
+    line-height: 4rem;
+  }
+
+  .first-card p,
+  .second-card p,
+  .third-card p {
+    flex-wrap: wrap;
+    width: 40vw;
+    line-height: 1.5rem;
+  }
+
+  .second-card {
+    margin-top: 5vh;
+  }
+
+  .button-container {
+    top: 0vh;
+    right: 10vw;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  .section-container {
+    width: 115vw;
+    padding: 4vh 8vw 0 8vw;
+  }
+
+  .button-container {
+    right: 15vw;
+  }
+
+  .first-card p,
+  .second-card p,
+  .third-card p {
+    width: 55vw;
+  }
 }
 
 @media screen and (max-width: 375px) {
+  .first-card p,
+  .second-card p,
+  .third-card p {
+    width: 60vw;
+  }
 }

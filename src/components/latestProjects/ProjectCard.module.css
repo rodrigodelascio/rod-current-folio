@@ -8,7 +8,7 @@
 }
 
 .card-container h4 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 600;
   padding: 0 2rem;
 }
@@ -34,4 +34,41 @@
 .card-container:hover {
   opacity: 75%;
   cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .card-container {
+    width: 40vw;
+    height: 55vh;
+  }
+
+  .card-img {
+    scale: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    width: 84vw;
+    height: 55vh;
+  }
+
+  .card-img {
+    bottom: -15%;
+    right: -25%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card-container {
+    width: 94vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card-img {
+    bottom: 0;
+    right: -22%;
+    scale: 100%;
+  }
 }
