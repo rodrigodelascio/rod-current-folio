@@ -94,6 +94,7 @@
 .experience-inner-wrapper p {
   color: #000;
   margin-top: 1vh;
+  font-size: 0.9rem;
 }
 
 .transferrable-skills-wrapper {
@@ -120,8 +121,8 @@
   background: #000;
   color: #fff;
   border-radius: 50%;
-  height: 8rem;
-  width: 8rem;
+  height: 7rem;
+  width: 7rem;
   align-items: center;
   justify-content: center;
   font-size: 0.7rem;
@@ -134,8 +135,8 @@
 .cv-button-wrapper {
   border: dashed #8873ef 0.1rem;
   border-radius: 50%;
-  height: 6.8rem;
-  width: 6.8rem;
+  height: 6rem;
+  width: 6rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -156,16 +157,107 @@
 /* Media Queries */
 
 @media screen and (max-width: 1200px) {
+  .skills-card {
+    padding: 0.7rem 0.8rem;
+    font-size: 0.95rem;
+  }
+
+  .transferrable-skills-card {
+    padding: 0.5rem 0.6rem;
+    font-size: 0.65rem;
+  }
+
+  .experience-inner-wrapper h5 {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 992px) {
+  .skills-card {
+    padding: 0.6rem 0.7rem;
+    font-size: 0.8rem;
+  }
+
+  .transferrable-skills-card {
+    padding: 0.5rem 0.6rem;
+    font-size: 0.6rem;
+  }
+
+  .experience-inner-wrapper h5 {
+    font-size: 0.8rem;
+  }
+
+  .experience-inner-wrapper p {
+    font-size: 0.75rem;
+  }
+
+  .cv-button-container {
+    height: 6rem;
+    width: 6rem;
+    font-size: 0.6rem;
+  }
+
+  .cv-button-wrapper {
+    height: 5rem;
+    width: 5rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  .section-container {
+    flex-direction: column;
+    padding: 4vh 8vw 0 8vw;
+  }
+
+  .hero-text-container p {
+    font-size: 0.85rem;
+    line-height: 2.5rem;
+  }
+
+  .hero-text-container h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .hero-text-container h3 {
+    font-size: 2.6rem;
+    line-height: 4rem;
+  }
+
+  .skills-section-container {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+  }
+
+  .skills-cards-container {
+    width: 84vw;
+  }
+
+  .experience-section-container {
+    width: 84vw;
+    margin-bottom: 4vh;
+  }
+
+  .transferrable-skills-card {
+    margin-right: 1.5vw;
+  }
+
+  .cv-button-container {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 576px) {
-}
+  .section-container {
+    width: 115vw;
+    padding: 4vh 8vw 0 8vw;
+  }
 
-@media screen and (max-width: 375px) {
+  .skills-cards-container {
+    width: 100vw;
+  }
+
+  .experience-section-container {
+    width: 90vw;
+  }
 }

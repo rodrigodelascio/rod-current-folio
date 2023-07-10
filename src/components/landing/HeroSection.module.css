@@ -233,11 +233,19 @@
   }
 
   .profile-pic-container p {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
 }
 
 @media screen and (max-width: 576px) {
+  .section-container {
+    justify-content: unset;
+  }
+
+  .hero-text-container {
+    margin-bottom: 2.5vh;
+  }
+
   .hero-text-container button {
     margin-right: 0.5vw;
     margin-top: 2vh;
@@ -250,6 +258,10 @@
   .profile-pic-container p {
     font-size: 0.65rem;
   }
+
+  .profile-pic {
+    padding-top: 10vh;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -258,7 +270,7 @@
   }
 
   .hero-text-container {
-    width: 94vw;
+    width: 98vw;
   }
 
   .hero-text-container p {
@@ -277,7 +289,7 @@
   }
 
   .profile-pic-container {
-    width: 94vw;
+    width: 98vw;
     margin-top: 1.5vh;
   }
 
