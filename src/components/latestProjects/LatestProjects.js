@@ -2,7 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import rodWeather from "./../../assets/images/rodWeatherMockup.png";
 import rodKrypto from "./../../assets/images/rodKrypto.png";
-import rodFlix from "./../../assets/images/rodFlixMockup.png";
+import sunnyside from "./../../assets/images/sunnyside-website.png";
 import styles from "./LatestProjects.module.css";
 import { GoArrowUpRight } from "react-icons/go";
 
@@ -20,6 +20,13 @@ const LatestProjects = () => {
         <div className={styles["cards-container"]}>
           <ProjectCard
             className={firstCard}
+            projectName={"Sunnyside"}
+            projectDescription={"Creative Agency Website"}
+            projectTags={"HTML | CSS | JavaScript "}
+            cardImage={<img src={sunnyside} alt="sunnyside website mockup" />}
+          />
+          <ProjectCard
+            className={secondCard}
             projectName={"RodWeather"}
             projectDescription={"Weather App"}
             projectTags={
@@ -28,20 +35,13 @@ const LatestProjects = () => {
             cardImage={<img src={rodWeather} alt="rodWeather app mockup" />}
           />
           <ProjectCard
-            className={secondCard}
+            className={thirdCard}
             projectName={"RodKrypto"}
             projectDescription={"Cryptocurrency App"}
             projectTags={
               "HTML | CSS | JavaScript | CoinPaprika API | CoinGecko API | ExchangeRate API "
             }
             cardImage={<img src={rodKrypto} alt="rodWeather app mockup" />}
-          />
-          <ProjectCard
-            className={thirdCard}
-            projectName={"RodFlix"}
-            projectDescription={"Database with CRUD"}
-            projectTags={"HTML | CSS | Python | SQLite "}
-            cardImage={<img src={rodFlix} alt="rodWeather app mockup" />}
           />
         </div>
         <div className={styles["button-container"]}>
