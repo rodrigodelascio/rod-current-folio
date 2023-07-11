@@ -16,6 +16,7 @@
 
 .logo-container:hover {
   opacity: 60%;
+  transition: 0.5s;
 }
 
 .logo-container img {
@@ -51,7 +52,7 @@
 
 .inner-links-container a:hover {
   color: #8873ef;
-  transition: all 0.2s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: 0.5s;
   text-decoration: underline 0.25rem;
 }
 
@@ -74,6 +75,7 @@
 .cv-button:hover {
   border: solid #8873ef 0.01rem;
   color: #8873ef;
+  transition: 0.5s;
 }
 
 .cv-button:hover > .arrow {

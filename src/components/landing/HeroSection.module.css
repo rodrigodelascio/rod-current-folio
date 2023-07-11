@@ -90,6 +90,7 @@
 
 .button-work:hover {
   color: #8873ef;
+  transition: 0.5s;
 }
 
 .button-work:hover > .arrow {
@@ -130,7 +131,13 @@
 }
 
 .socials-logo-wrapper:hover {
-  background: #d6d6d6c3;
+  background: #8873efc3;
+  transition: 0.5s;
+}
+
+.socials-logo-wrapper:hover .linkedIn,
+.socials-logo-wrapper:hover .gitHub {
+  color: #fff;
 }
 
 .profile-pic-container {
