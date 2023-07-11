@@ -23,6 +23,7 @@ const Skills = () => {
               <div className={styles["skills-card"]}>Tailwind CSS</div>
               <div className={styles["skills-card"]}>Bulma</div>
               <div className={styles["skills-card"]}>HTML</div>
+              <div className={styles["skills-card"]}>Figma</div>
               <div className={styles["skills-card"]}>Git</div>
               <div className={styles["skills-card"]}>Github</div>
               <div className={styles["skills-card"]}>Python</div>

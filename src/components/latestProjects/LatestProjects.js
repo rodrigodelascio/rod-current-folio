@@ -2,7 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import rodWeather from "./../../assets/images/rodWeatherMockup.png";
 import rodKrypto from "./../../assets/images/rodKrypto.png";
-import sunnyside from "./../../assets/images/sunnyside-website.png";
+import sunnyside from "./../../assets/images/sunnyside-website-mockup.png";
 import styles from "./LatestProjects.module.css";
 import { GoArrowUpRight } from "react-icons/go";
 

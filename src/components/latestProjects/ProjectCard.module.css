@@ -26,9 +26,9 @@
   height: auto;
   transform: rotate(-25deg);
   position: absolute;
-  bottom: 0%;
-  right: -15%;
-  opacity: 85%;
+  bottom: -15%;
+  right: -10%;
+  opacity: 90%;
 }
 
 .card-container:hover {
