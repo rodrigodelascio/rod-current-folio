@@ -16,11 +16,11 @@ const Navbar = () => {
   return (
     <div className={styles["main-navbar-container"]}>
       <div className={styles["logo-container"]}>
-        <a href="#Home">
+        <a href="/">
           <img src={logo} alt="logo" />
         </a>
         <p className={styles["logo-text"]}>
-          <a href="#Home">
+          <a href="/">
             Rodrigo <br />
             De Lascio
           </a>
@@ -34,13 +34,13 @@ const Navbar = () => {
               : `${styles["inner-links-container"]} ${styles["responsive-navbar"]}`
           }
         >
-          <a href="#About" onClick={clickToHide}>
+          <a href="/about" onClick={clickToHide}>
             About
           </a>
-          <a href="#Projects" onClick={clickToHide}>
+          <a href="/projects" onClick={clickToHide}>
             Projects
           </a>
-          <a href="#Contact" onClick={clickToHide}>
+          <a href="/contact" onClick={clickToHide}>
             Contact
           </a>
           <CgClose

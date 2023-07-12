@@ -1,21 +1,18 @@
 import React from "react";
-import Navbar from "./components/common/Navbar";
-import HeroSection from "./components/landing/HeroSection";
-import Skills from "./components/skills/Skills";
-import LatestProjects from "./components/latestProjects/LatestProjects";
-import SayHello from "./components/sayHello/SayHello";
-import Footer from "./components/common/Footer";
+import { Routes, Route } from "react-router-dom";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
+import HomePage from "./pages/HomePage";
+import ProjectsPage from "./pages/ProjectsPage";
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <HeroSection />
-      <Skills />
-      <LatestProjects />
-      <SayHello />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/about" element={<AboutPage />} />
+      <Route path="/projects" element={<ProjectsPage />} />
+      <Route path="/contact" element={<ContactPage />} />
+    </Routes>
   );
 };
 
