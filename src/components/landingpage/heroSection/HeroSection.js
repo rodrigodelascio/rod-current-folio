@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./HeroSection.module.css";
-import profilePicture from "../../assets/images/rodHexagon.png";
+import profilePicture from "../../../assets/images/rodHexagon.png";
 import { GoPaperAirplane, GoArrowUpRight } from "react-icons/go";
 import { DiGithubAlt } from "react-icons/di";
 import { BiLogoLinkedin } from "react-icons/bi";
