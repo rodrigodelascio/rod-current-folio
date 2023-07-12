@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../../assets/images/rodLogoBlack.png";
+import pdf from "../../assets/files/rodrigoCV.pdf";
 import { GoArrowUpRight } from "react-icons/go";
 import { CgMenu, CgClose } from "react-icons/cg";
 import styles from "./Navbar.module.css";
@@ -51,9 +52,9 @@ const Navbar = () => {
         </div>
       </div>
       <div>
-        <button className={styles["cv-button"]}>
+        <a className={styles["cv-button"]} href={pdf} target="__blank">
           My CV <GoArrowUpRight className={styles.arrow} />
-        </button>
+        </a>
         <div className={styles["hamburger-menu-container"]}>
           <CgMenu
             size={30}

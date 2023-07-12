@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ProjectCard from "./ProjectCard";
 import rodWeather from "../../../assets/images/rodWeatherMockup.png";
 import rodKrypto from "../../../assets/images/rodKrypto.png";
@@ -44,13 +45,15 @@ const LatestProjects = () => {
             cardImage={<img src={rodKrypto} alt="rodWeather app mockup" />}
           />
         </div>
-        <div className={styles["button-container"]}>
-          <div className={styles["button-wrapper"]}>
-            <div>
-              All projects <GoArrowUpRight className={styles.arrow} />
+        <Link to="/projects">
+          <div className={styles["button-container"]}>
+            <div className={styles["button-wrapper"]}>
+              <div>
+                All projects <GoArrowUpRight className={styles.arrow} />
+              </div>
             </div>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );

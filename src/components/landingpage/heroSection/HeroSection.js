@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./HeroSection.module.css";
 import profilePicture from "../../../assets/images/rodHexagon.png";
 import { GoPaperAirplane, GoArrowUpRight } from "react-icons/go";
@@ -14,22 +15,34 @@ const HeroSection = () => {
         <h3>Web Developer</h3>
 
         <div className={styles["hero-buttons-container"]}>
-          <button className={styles["button-contact"]}>
-            Let's Talk <GoPaperAirplane className={styles.airplane} />
-          </button>
-          <button className={styles["button-work"]}>
-            My Work <GoArrowUpRight className={styles.arrow} />
-          </button>
+          <a href="mailto:rodrigodelascio@gmail.com">
+            <button className={styles["button-contact"]}>
+              Let's Talk <GoPaperAirplane className={styles.airplane} />
+            </button>
+          </a>
+          <Link to="/projects">
+            <button className={styles["button-work"]}>
+              My Work <GoArrowUpRight className={styles.arrow} />
+            </button>
+          </Link>
         </div>
 
         <div className={styles["landing-socials-container"]}>
           <p>Check Out My</p>
-          <div className={styles["socials-logo-wrapper"]}>
+          <a
+            className={styles["socials-logo-wrapper"]}
+            href="https://www.linkedin.com/in/rodrigo-de-lascio/"
+            target="__blank"
+          >
             <BiLogoLinkedin className={styles.linkedIn} />
-          </div>
-          <div className={styles["socials-logo-wrapper"]}>
+          </a>
+          <a
+            className={styles["socials-logo-wrapper"]}
+            href="https://github.com/rodrigodelascio"
+            target="__blank"
+          >
             <DiGithubAlt className={styles.gitHub} />
-          </div>
+          </a>
         </div>
       </div>
 

@@ -18,7 +18,11 @@ const SayHello = () => {
           </div>
           <div>
             <p>Email</p>
-            <h4>rodrigodelascio@gmail.com</h4>
+            <h4 className={styles["email-h4"]}>
+              <a href="mailto:rodrigodelascio@gmail.com">
+                rodrigodelascio@gmail.com
+              </a>
+            </h4>
           </div>
         </div>
         <div className={styles["contact-details"]}>
@@ -37,10 +41,9 @@ const SayHello = () => {
       <div className={styles["round-container"]}>
         <div className={styles["round-wrapper"]}>
           <p>Say Hello!</p>
-          <div className={styles["button-wrapper"]}>
+          <a className={styles["button-wrapper"]} href="/contact">
             <GoArrowUpRight className={styles.arrow} />
-          </div>
-          {/* <div className={styles.shape}></div> */}
+          </a>
           <div className={styles.quote}>
             <p>
               <em>

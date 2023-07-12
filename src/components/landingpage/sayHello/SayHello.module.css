@@ -72,6 +72,10 @@
   color: #000;
 }
 
+.email-h4:hover {
+  opacity: 50%;
+}
+
 .round-container {
   display: flex;
   align-items: center;

@@ -1,4 +1,5 @@
 import React from "react";
+import pdf from "../../../assets/files/rodrigoCV.pdf";
 import styles from "./Skills.module.css";
 import { GoArrowUpRight } from "react-icons/go";
 
@@ -88,13 +89,17 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className={styles["cv-button-container"]}>
+        <a
+          className={styles["cv-button-container"]}
+          href={pdf}
+          target="__blank"
+        >
           <div className={styles["cv-button-wrapper"]}>
             <div>
               My CV <GoArrowUpRight className={styles.arrow} />
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   );
