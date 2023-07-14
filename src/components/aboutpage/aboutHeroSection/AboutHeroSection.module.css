@@ -2,8 +2,6 @@
   position: relative;
   background: #fff;
   padding-top: 8vh;
-  display: flex;
-  flex-direction: column;
 }
 
 .about-hero-text-container {
@@ -14,26 +12,31 @@
   padding: 0 8vw;
 }
 
+.profile-pic-container {
+  width: 40vw;
+  position: relative;
+  overflow: visible;
+}
+
+.profile-pic-container img {
+  position: absolute;
+  left: -5vw;
+  bottom: 0;
+  max-height: 77.5vh;
+  width: auto;
+  object-fit: cover;
+}
+
 .about-hero-text-wrapper {
   display: flex;
   flex-direction: column;
-  width: 35vw;
-  height: 50vh;
-  justify-content: space-between;
+  width: 44vw;
+  padding-right: 8vw;
+  padding-bottom: 4vh;
 }
 
 .about-hero-text-wrapper h1 {
-  position: relative;
   font-size: 4rem;
   font-weight: 1000;
-  padding-left: 4vw;
   padding-top: 2vh;
-  z-index: 2;
-}
-
-.profile-pic-container {
-  position: absolute;
-  bottom: 0;
-  right: 7.5vw;
-  width: 55vh;
 }
