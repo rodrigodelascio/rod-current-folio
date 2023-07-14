@@ -14,7 +14,9 @@ const Footer = () => {
           </Link>
           <p>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#169; 2023 All Rights Reserved</p>
         </div>
-        <p>Designed and built by Rodrigo De Lascio</p>
+        <p className={styles["designed-by"]}>
+          Designed and built by Rodrigo De Lascio
+        </p>
         <p className={styles.email}>
           <a href="mailto:rodrigodelascio@gmail.com">
             rodrigodelascio@gmail.com

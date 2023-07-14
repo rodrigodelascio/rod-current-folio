@@ -20,13 +20,13 @@
 }
 
 .logo-container img {
-  width: 4rem;
+  width: 3rem;
 }
 
 .logo-text {
-  font-size: 1.2rem;
-  margin-left: 1vw;
-  line-height: 1.3rem;
+  font-size: 1rem;
+  margin-left: 0.5vw;
+  line-height: 1rem;
   font-weight: 1000;
 }
 
@@ -96,13 +96,13 @@
 /* Media Queries */
 @media screen and (max-width: 992px) {
   .logo-container img {
-    width: 3rem;
+    width: 2.8rem;
   }
 
   .logo-text {
-    font-size: 1rem;
-    margin-left: 1vw;
-    line-height: 1.1rem;
+    font-size: 0.9rem;
+    margin-left: 0.5vw;
+    line-height: 1rem;
   }
 }
 
@@ -112,9 +112,9 @@
   }
 
   .logo-text {
-    font-size: 1rem;
-    margin-left: 1vw;
-    line-height: 1rem;
+    font-size: 0.9rem;
+    margin-left: 0.5vw;
+    line-height: 0.9rem;
   }
 
   .inner-links-container {
@@ -180,11 +180,5 @@
 @media screen and (max-width: 576px) {
   .hamburger-menu-icon {
     scale: 115%;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .hamburger-menu-container {
-    margin-right: -15vw;
   }
 }

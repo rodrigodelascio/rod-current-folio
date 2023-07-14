@@ -63,11 +63,7 @@
 
 @media screen and (max-width: 576px) {
   .main-footer-container {
-    width: 115vw;
-  }
-
-  .border {
-    right: -8%;
+    width: 100vw;
   }
 
   .main-footer-container img {
@@ -81,4 +77,11 @@
 }
 
 @media screen and (max-width: 375px) {
+  .designed-by {
+    display: none;
+  }
+
+  .main-footer-container {
+    justify-content: center;
+  }
 }

@@ -1,14 +1,20 @@
-.about-hero-container {
-  min-height: 75vh;
-  min-width: 84vw;
+.about-page-container {
   position: relative;
   background: #fff;
-  padding: 8vh 8vw 0 8vw;
+  padding-top: 8vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .about-hero-text-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 70vh;
+  min-width: 84vw;
+  padding: 0 8vw;
+}
+
+.about-hero-text-wrapper {
   display: flex;
   flex-direction: column;
   width: 35vw;
@@ -16,29 +22,13 @@
   justify-content: space-between;
 }
 
-.about-hero-text-container img {
-  position: absolute;
-  top: 4vh;
-  left: 23vw;
-  z-index: 0;
-  width: 20rem;
-  opacity: 80%;
-}
-
-.about-hero-text-container h1 {
+.about-hero-text-wrapper h1 {
   position: relative;
   font-size: 4rem;
   font-weight: 1000;
   padding-left: 4vw;
   padding-top: 2vh;
   z-index: 2;
-}
-
-.about-socials-container {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 7.5vh;
-  margin-left: 12vw;
 }
 
 .profile-pic-container {

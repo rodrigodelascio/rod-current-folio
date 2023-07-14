@@ -67,11 +67,6 @@
   line-height: 1.5rem;
 }
 
-/* .first-card img {
-  scale: 110%;
-  opacity: 85%;
-} */
-
 .first-card {
   background: #286f6c;
 }
@@ -183,18 +178,18 @@
 
 @media screen and (max-width: 576px) {
   .section-container {
-    width: 115vw;
+    width: 100vw;
     padding: 4vh 8vw 0 8vw;
   }
 
   .button-container {
-    right: 15vw;
+    right: 5vw;
   }
 
   .first-card p,
   .second-card p,
   .third-card p {
-    width: 55vw;
+    width: 50vw;
   }
 }
 
@@ -202,6 +197,6 @@
   .first-card p,
   .second-card p,
   .third-card p {
-    width: 60vw;
+    width: 85vw;
   }
 }

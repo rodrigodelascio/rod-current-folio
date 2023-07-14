@@ -59,12 +59,6 @@
   }
 }
 
-@media screen and (max-width: 576px) {
-  .card-container {
-    width: 94vw;
-  }
-}
-
 @media screen and (max-width: 375px) {
   .card-img {
     bottom: 0;

@@ -2,8 +2,7 @@
   background: #fff;
   display: flex;
   position: relative;
-  margin-top: 3vh;
-  padding: 12vh 8vw 0 8vw;
+  padding: 14vh 8vw 0 8vw;
   min-width: 84vw;
   min-height: 90vh;
   justify-content: space-between;
@@ -15,25 +14,26 @@
   width: 45vw;
 }
 
+.hero-text-container p,
+.hero-text-container h2,
+.hero-text-container h3 {
+  font-weight: 1000;
+  color: #000;
+}
+
 .hero-text-container p {
   font-size: 1rem;
-  font-weight: 1000;
   line-height: 3rem;
-  color: #000;
 }
 
 .hero-text-container h2 {
   font-size: 3.5rem;
-  font-weight: 1000;
   line-height: 4.5rem;
-  color: #000;
 }
 
 .hero-text-container h3 {
   font-size: 3.1rem;
-  font-weight: 1000;
   line-height: 4.5rem;
-  color: #000;
 }
 
 .hero-buttons-container {
@@ -247,6 +247,7 @@
 @media screen and (max-width: 576px) {
   .section-container {
     justify-content: unset;
+    width: 100vw;
   }
 
   .hero-text-container {
@@ -277,7 +278,7 @@
   }
 
   .hero-text-container {
-    width: 98vw;
+    width: 85vw;
   }
 
   .hero-text-container p {
@@ -296,7 +297,7 @@
   }
 
   .profile-pic-container {
-    width: 98vw;
+    width: 85vw;
     margin-top: 1.5vh;
   }
 
@@ -306,6 +307,6 @@
   }
 
   .profile-pic {
-    padding-top: 8.5vh;
+    padding-top: 15vh;
   }
 }

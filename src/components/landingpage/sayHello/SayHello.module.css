@@ -245,13 +245,13 @@
 
 @media screen and (max-width: 576px) {
   .section-container {
-    width: 115vw;
+    width: 100vw;
     padding: 4vh 8vw 0 8vw;
     flex-direction: column;
   }
 
   .contact-details {
-    width: 90vw;
+    width: 80vw;
   }
 
   .icon-wrapper {
