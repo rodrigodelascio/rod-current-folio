@@ -39,6 +39,27 @@
   font-size: 4rem;
   font-weight: 1000;
   padding-top: 2vh;
+  color: #000;
+}
+
+.about-hero-text-wrapper h2 {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 300;
+  padding-top: 2vh;
+  color: #000;
+}
+
+.about-hero-text-wrapper p {
+  font-size: 0.9rem;
+  font-weight: 100;
+  line-height: 1.5rem;
+  padding-top: 2vh;
+  color: #000;
+}
+
+hr {
+  margin-top: 3vh;
 }
 
 .second-section-template {
