@@ -17,15 +17,14 @@ const AboutHeroSection = () => {
             Walton-on-Thames, UK
           </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Having come from a diverse background of studies and work
+            experiences, I have recently enrolled to study Computer Science at
+            Arden University. Passionate about technology, I love adding to my
+            tech stack, improving myself, and have been working on front-end
+            projects since 2022.
           </p>
           <hr />
+          <div></div>
         </div>
       </div>
       <div className={styles["second-section-template"]}>
