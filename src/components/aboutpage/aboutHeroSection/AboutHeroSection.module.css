@@ -40,3 +40,10 @@
   font-weight: 1000;
   padding-top: 2vh;
 }
+
+.second-section-template {
+  min-height: 80vh;
+  min-width: 84vw;
+  padding: 0 8vw;
+  background: #fcda69;
+}

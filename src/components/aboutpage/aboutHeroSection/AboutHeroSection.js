@@ -32,6 +32,9 @@ const AboutHeroSection = () => {
           </p>
         </div>
       </div>
+      <div className={styles["second-section-template"]}>
+        <div></div>
+      </div>
     </div>
   );
 };

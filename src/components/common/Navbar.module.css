@@ -14,20 +14,13 @@
   flex-direction: row;
 }
 
-.logo-container:hover {
+.logo-container img {
+  width: 4rem;
+}
+
+.logo-container img:hover {
   opacity: 60%;
   transition: 0.5s;
-}
-
-.logo-container img {
-  width: 3rem;
-}
-
-.logo-text {
-  font-size: 1rem;
-  margin-left: 0.5vw;
-  line-height: 1rem;
-  font-weight: 1000;
 }
 
 .navbar-links-container {
@@ -98,23 +91,11 @@
   .logo-container img {
     width: 2.8rem;
   }
-
-  .logo-text {
-    font-size: 0.9rem;
-    margin-left: 0.5vw;
-    line-height: 1rem;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .logo-container img {
     width: 2.5rem;
-  }
-
-  .logo-text {
-    font-size: 0.9rem;
-    margin-left: 0.5vw;
-    line-height: 0.9rem;
   }
 
   .inner-links-container {

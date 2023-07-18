@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../../assets/images/logoRod.png";
 import styles from "./Footer.module.css";
-import logo from "../../assets/images/rodLogoBlack.png";
 
 const Footer = () => {
   return (
@@ -12,11 +12,13 @@ const Footer = () => {
           <Link to="/">
             <img src={logo} alt="black logo" />
           </Link>
-          <p>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#169; 2023 All Rights Reserved</p>
+          <p>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#169; 2023 Rodrigo De Lascio</p>
         </div>
-        <p className={styles["designed-by"]}>
-          Designed and built by Rodrigo De Lascio
-        </p>
+        <div className={styles["footer-links"]}>
+          <a href="/about">About</a>
+          <a href="/projects">Projects</a>
+          <a href="/contact">Contact</a>
+        </div>
         <p className={styles.email}>
           <a href="mailto:rodrigodelascio@gmail.com">
             rodrigodelascio@gmail.com

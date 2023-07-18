@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../assets/images/rodLogoBlack.png";
+import logo from "../../assets/images/logoRod.png";
 import pdf from "../../assets/files/rodrigoCV.pdf";
 import { GoArrowUpRight } from "react-icons/go";
 import { CgMenu, CgClose } from "react-icons/cg";
@@ -20,12 +20,6 @@ const Navbar = () => {
         <a href="/">
           <img src={logo} alt="logo" />
         </a>
-        <p className={styles["logo-text"]}>
-          <a href="/">
-            Rodrigo <br />
-            De Lascio
-          </a>
-        </p>
       </div>
       <div className={styles["navbar-links-container"]}>
         <div
