@@ -53,12 +53,11 @@ const AboutHeroSection = () => {
           </div>
         </div>
       </div>
-      <div className={styles["second-section-container"]}>
-        <div>
+      <div className={styles["quick-facts-container"]}>
+        <div className={styles["quick-facts-column-one"]}>
           <h2>Quick facts</h2>
-
           <h3>Home</h3>
-          <p>Walton-on-Thames, Surrey, UK.</p>
+          <p>Walton-on-Thames, Surrey, UK. 🇬🇧</p>
 
           <h3>When I started as a developer</h3>
           <p>
@@ -69,15 +68,25 @@ const AboutHeroSection = () => {
           <h3>Education</h3>
           <p>
             I have a BA in Journalism, a Beng in Civil Engineering, a Level IV
-            Certificate in Graphic Design , a Level III Certificate in Computer
-            Science .
+            Certificate in Graphic Design, and a Level III Certificate in
+            Computer Science. I am working towards a BSc in Computing now.
+          </p>
+        </div>
+
+        <div className={styles["quick-facts-column-two"]}>
+          <h2>&nbsp;</h2>
+          <h3>Hobbies</h3>
+          <p>
+            Cooking (and eating, obviously 😋), watching and playing football,
+            reading, playing video games and running to keep fit.
           </p>
 
-          <h3>Hobbies</h3>
-          <p>Blablabla</p>
-
           <h3>Favourite pastimes</h3>
-          <p>Blablabla</p>
+          <p>
+            Spending time with my family, watching films and tv series (I sign
+            Netflix, Amazon Prime, Apple TV+ and Disney Plus, hope it is not too
+            much 😅).
+          </p>
         </div>
       </div>
     </div>

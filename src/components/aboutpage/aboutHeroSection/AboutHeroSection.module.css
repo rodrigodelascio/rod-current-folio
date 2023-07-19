@@ -35,11 +35,16 @@
   padding-bottom: 4vh;
 }
 
+.about-hero-text-wrapper h1,
+.about-hero-text-wrapper h2,
+.about-hero-text-wrapper p {
+  color: #000;
+}
+
 .about-hero-text-wrapper h1 {
   font-size: 4rem;
   font-weight: 1000;
   padding-top: 2vh;
-  color: #000;
 }
 
 .about-hero-text-wrapper h2 {
@@ -47,7 +52,6 @@
   line-height: 2rem;
   font-weight: 300;
   padding-top: 1vh;
-  color: #000;
 }
 
 .about-hero-text-wrapper p {
@@ -55,7 +59,6 @@
   font-weight: 100;
   line-height: 1.5rem;
   padding-top: 2vh;
-  color: #000;
 }
 
 hr {
@@ -73,6 +76,11 @@ hr {
   max-width: 16vw;
 }
 
+.past-present-future-container h3,
+.past-present-future-container p {
+  color: #000;
+}
+
 .past-present-future-container h3 {
   font-size: 1rem;
   display: flex;
@@ -84,9 +92,37 @@ hr {
   line-height: 1.35rem;
 }
 
-.second-section-container {
+.quick-facts-container {
   min-height: 75vh;
   min-width: 84vw;
   padding: 0 8vw;
   background: #fcda69;
+  padding: 8vh 8vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.quick-facts-column-one,
+.quick-facts-column-two {
+  width: 38vw;
+}
+
+.quick-facts-container h2 {
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+  color: #000;
+}
+
+.quick-facts-container h3 {
+  font-size: 1.3rem;
+  font-weight: 1000;
+  margin-top: 2rem;
+}
+
+.quick-facts-container p {
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.75rem;
+  padding-top: 0.35rem;
 }
