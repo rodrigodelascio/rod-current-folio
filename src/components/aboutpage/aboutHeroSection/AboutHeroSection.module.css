@@ -75,14 +75,16 @@ hr {
 
 .past-present-future-container h3 {
   font-size: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .past-present-future-container p {
   font-size: 0.75rem;
-  line-height: 1.25rem;
+  line-height: 1.35rem;
 }
 
-.second-section-template {
+.second-section-container {
   min-height: 75vh;
   min-width: 84vw;
   padding: 0 8vw;

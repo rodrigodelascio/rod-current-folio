@@ -1,5 +1,6 @@
 import React from "react";
 import rodProfile from "../../../assets/images/rodProfile.png";
+import { FaClockRotateLeft, FaRegClock } from "react-icons/fa6";
 import styles from "./AboutHeroSection.module.css";
 
 const AboutHeroSection = () => {
@@ -26,7 +27,10 @@ const AboutHeroSection = () => {
           <hr />
           <div className={styles["past-present-future-container"]}>
             <div className={styles["past-present-future-wrapper"]}>
-              <h3>The Past.</h3>
+              <h3>
+                The Past &nbsp;&nbsp;
+                <FaClockRotateLeft />
+              </h3>
               <p>
                 I have studied the foundations of Computer Science at a young
                 age and moved away from the area due to personal circumstances.
@@ -35,7 +39,10 @@ const AboutHeroSection = () => {
               </p>
             </div>
             <div className={styles["past-present-future-wrapper"]}>
-              <h3>The Present.</h3>
+              <h3>
+                The Present &nbsp;&nbsp;
+                <FaRegClock />
+              </h3>
               <p>
                 I found my way back to computing and as a lifelong learner,
                 after recently attending a Software Development Bootcamp, I
@@ -46,8 +53,32 @@ const AboutHeroSection = () => {
           </div>
         </div>
       </div>
-      <div className={styles["second-section-template"]}>
-        <div></div>
+      <div className={styles["second-section-container"]}>
+        <div>
+          <h2>Quick facts</h2>
+
+          <h3>Home</h3>
+          <p>Walton-on-Thames, Surrey, UK.</p>
+
+          <h3>When I started as a developer</h3>
+          <p>
+            In 2000, when I started a Level III Certificate Computer Science
+            course where I learned Visual Basic and Delphi.
+          </p>
+
+          <h3>Education</h3>
+          <p>
+            I have a BA in Journalism, a Beng in Civil Engineering, a Level IV
+            Certificate in Graphic Design , a Level III Certificate in Computer
+            Science .
+          </p>
+
+          <h3>Hobbies</h3>
+          <p>Blablabla</p>
+
+          <h3>Favourite pastimes</h3>
+          <p>Blablabla</p>
+        </div>
       </div>
     </div>
   );
