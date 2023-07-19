@@ -59,11 +59,31 @@
 }
 
 hr {
-  margin-top: 3vh;
+  margin: 4vh 0;
+}
+
+.past-present-future-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 4vh;
+}
+
+.past-present-future-wrapper {
+  max-width: 16vw;
+}
+
+.past-present-future-container h3 {
+  font-size: 1rem;
+}
+
+.past-present-future-container p {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
 }
 
 .second-section-template {
-  min-height: 80vh;
+  min-height: 75vh;
   min-width: 84vw;
   padding: 0 8vw;
   background: #fcda69;
