@@ -126,3 +126,15 @@ hr {
   line-height: 1.75rem;
   padding-top: 0.35rem;
 }
+
+.quick-facts-container a {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #8873ef;
+}
+
+.quick-facts-container a:hover {
+  opacity: 50%;
+  color: #286f6c;
+  transition: 0.5s;
+}

@@ -46,7 +46,7 @@ const AboutHeroSection = () => {
               <p>
                 I found my way back to computing and as a lifelong learner,
                 after recently attending a Software Development Bootcamp, I
-                decided to go back to university and enhance my knowledge, to
+                decided to go back to university to enhance my knowledge and
                 become a better professional.
               </p>
             </div>
@@ -71,7 +71,15 @@ const AboutHeroSection = () => {
           <p>
             I have a BA in Journalism, a Beng in Civil Engineering, a Level IV
             Certificate in Graphic Design, and a Level III Certificate in
-            Computer Science. I am working towards a BSc in Computing now.
+            Computer Science. I am working towards a BSc in Computing now. Check
+            out my&nbsp;
+            <a
+              href="https://www.linkedin.com/in/rodrigo-de-lascio/"
+              target="__blank"
+            >
+              LinkedIn
+            </a>
+            &nbsp;for a full picture.
           </p>
         </div>
 
