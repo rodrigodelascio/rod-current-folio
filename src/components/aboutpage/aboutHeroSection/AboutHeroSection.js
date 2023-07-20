@@ -61,8 +61,10 @@ const AboutHeroSection = () => {
 
           <h3>When I started as a developer</h3>
           <p>
-            In 2000, when I started a Level III Certificate Computer Science
-            course where I learned Visual Basic and Delphi.
+            In 2000, when I did a Level III Certificate Computer Science course
+            where I learned Visual Basic and Delphi. Unfortunately, I had to put
+            the brakes on it when going to university due to personal
+            circumstances, but that is a long story for another time... 📖
           </p>
 
           <h3>Education</h3>
@@ -78,14 +80,21 @@ const AboutHeroSection = () => {
           <h3>Hobbies</h3>
           <p>
             Cooking (and eating, obviously 😋), watching and playing football,
-            reading, playing video games and running to keep fit.
+            reading, listening to rock music, playing video games and running to
+            keep fit.
           </p>
 
           <h3>Favourite pastimes</h3>
           <p>
             Spending time with my family, watching films and tv series (I sign
-            Netflix, Amazon Prime, Apple TV+ and Disney Plus, hope it is not too
-            much 😅).
+            Netflix, Amazon Prime, Apple TV+, Disney Plus, and a few other
+            services 😅).
+          </p>
+
+          <h3>Favourite quote</h3>
+          <p>
+            "I know I was born and I know that I'll die, the in-between is mine,
+            I am mine", by Eddie Vedder. 🤘🎸
           </p>
         </div>
       </div>
