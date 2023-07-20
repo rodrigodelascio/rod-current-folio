@@ -101,8 +101,11 @@ const AboutHeroSection = () => {
 
           <h3>Favourite quote</h3>
           <p>
-            "I know I was born and I know that I'll die, the in-between is mine,
-            I am mine", by Eddie Vedder. 🤘🎸
+            <em>
+              "I know I was born and I know that I'll die, the in-between is
+              mine, I am mine"
+            </em>
+            , by Eddie Vedder. 🤘🎸
           </p>
         </div>
       </div>
