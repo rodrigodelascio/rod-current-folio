@@ -10,11 +10,12 @@
   min-height: 60vh;
   min-width: 84vw;
   padding: 0 8vw;
+  justify-content: space-between;
 }
 
 .projects-hero-text-wrapper {
   width: 30vw;
-  padding-left: 2vw;
+  padding: 4vh 2vw;
 }
 
 .projects-hero-text-wrapper h1,
@@ -41,4 +42,16 @@
   font-weight: 100;
   line-height: 1.5rem;
   padding-top: 2vh;
+}
+
+.projects-hero-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8vh;
+  width: 50vw;
+}
+
+.projects-hero-image-wrapper img {
+  object-fit: cover;
 }

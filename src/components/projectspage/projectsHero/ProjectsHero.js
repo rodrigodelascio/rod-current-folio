@@ -1,4 +1,5 @@
 import React from "react";
+import projectsShowcaseImg from "../../../assets/images/projectsShowcase.png";
 import styles from "./ProjectsHero.module.css";
 
 const ProjectsHero = () => {
@@ -16,6 +17,12 @@ const ProjectsHero = () => {
             including websites and apps.
           </p>
           <hr />
+        </div>
+        <div className={styles["projects-hero-image-wrapper"]}>
+          <img
+            src={projectsShowcaseImg}
+            alt="showcase of projects in different media screens"
+          />
         </div>
       </div>
     </div>

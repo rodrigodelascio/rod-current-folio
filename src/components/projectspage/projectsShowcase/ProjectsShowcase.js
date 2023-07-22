@@ -1,4 +1,5 @@
 import React from "react";
+import projectsShowcaseImg from "../../../assets/images/projectsShowcase.png";
 import styles from "./ProjectsShowcase.module.css";
 
 const ProjectsShowcase = () => {
