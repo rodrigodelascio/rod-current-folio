@@ -13,7 +13,7 @@
 }
 
 .profile-pic-container {
-  width: 40vw;
+  width: 45vw;
   position: relative;
   overflow: visible;
 }
@@ -95,7 +95,6 @@ hr {
 .quick-facts-container {
   min-height: 75vh;
   min-width: 84vw;
-  padding: 0 8vw;
   background: #fcda69;
   padding: 8vh 8vw;
   display: flex;
@@ -137,4 +136,160 @@ hr {
   opacity: 50%;
   color: #286f6c;
   transition: 0.5s;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+  .about-hero-text-wrapper {
+    padding-right: 4vw;
+  }
+
+  .about-hero-text-wrapper h1 {
+    padding-top: 1vh;
+  }
+
+  .about-hero-text-wrapper h2 {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  .about-hero-text-wrapper p {
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+  }
+
+  hr {
+    margin: 3vh 0;
+  }
+
+  .past-present-future-container {
+    padding-bottom: 2vh;
+  }
+
+  .past-present-future-container h3 {
+    font-size: 1rem;
+  }
+
+  .past-present-future-container p {
+    font-size: 0.65rem;
+    line-height: 1.1rem;
+  }
+
+  .quick-facts-container {
+    padding: 6vh 8vw;
+  }
+
+  .quick-facts-container h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+  }
+
+  .quick-facts-container p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .about-hero-text-wrapper h1 {
+    padding-top: 0;
+    font-size: 3.5rem;
+  }
+
+  .about-hero-text-wrapper h2 {
+    font-size: 1rem;
+    line-height: 1.45rem;
+  }
+
+  .about-hero-text-wrapper p {
+    font-size: 0.75rem;
+    line-height: 1.15rem;
+  }
+
+  hr {
+    margin: 2.5vh 0;
+  }
+
+  .past-present-future-container {
+    padding-bottom: 1vh;
+  }
+
+  .past-present-future-container p {
+    font-size: 0.65rem;
+    line-height: 1rem;
+  }
+
+  .quick-facts-container {
+    padding: 4vh 8vw;
+  }
+
+  .quick-facts-container h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .quick-facts-container h3 {
+    font-size: 1.1rem;
+    margin-top: 1.25rem;
+  }
+
+  .quick-facts-container p {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-page-container {
+    padding-top: 4vh;
+  }
+
+  .about-hero-text-container {
+    flex-direction: column;
+    padding: 0 8vw;
+  }
+
+  .profile-pic-container {
+    width: 84vw;
+    order: 5;
+  }
+
+  .profile-pic-container img {
+    position: relative;
+    max-height: 50vh;
+    margin: auto;
+    padding-left: 3.5rem;
+  }
+
+  .about-hero-text-wrapper {
+    width: 84vw;
+    padding-bottom: 4vh;
+  }
+
+  .past-present-future-container {
+    padding-bottom: 0;
+  }
+
+  .past-present-future-wrapper {
+    max-width: 37.5vw;
+  }
+
+  .quick-facts-container {
+    flex-direction: column;
+  }
+
+  .quick-facts-column-one,
+  .quick-facts-column-two {
+    width: 84vw;
+  }
+
+  .white-space {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .profile-pic-container img {
+    padding-left: 2.5rem;
+  }
 }

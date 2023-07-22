@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/images/logoRod.png";
+import logo from "../../assets/images/logoRodWhite.png";
 import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
     <div>
-      <div className={styles.border}></div>
+      {/* <div className={styles.border}></div> */}
       <div className={styles["main-footer-container"]}>
         <div className={styles["logo-copyright-wrapper"]}>
           <Link to="/">

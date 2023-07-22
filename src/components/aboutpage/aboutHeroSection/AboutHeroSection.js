@@ -84,7 +84,7 @@ const AboutHeroSection = () => {
         </div>
 
         <div className={styles["quick-facts-column-two"]}>
-          <h2>&nbsp;</h2>
+          <h2 className={styles["white-space"]}>&nbsp;</h2>
           <h3>Hobbies</h3>
           <p>
             Cooking (and eating, obviously 😋), watching and playing football,

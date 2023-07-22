@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   padding: 6vh 8vw;
-  background: #fcda69;
+  background: #000;
 }
 
 .logo-copyright-wrapper {
@@ -27,11 +27,13 @@
 .main-footer-container img:hover {
   opacity: 50%;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .main-footer-container p {
   font-size: 0.8rem;
   font-weight: 600;
+  color: #fff;
 }
 
 .footer-links {
@@ -41,16 +43,19 @@
   justify-content: space-between;
   font-size: 0.8rem;
   font-weight: 900;
+  color: #fff;
 }
 
 .footer-links a:hover {
   cursor: pointer;
   opacity: 50%;
+  transition: 0.5s;
 }
 
 .email:hover {
   opacity: 50%;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 /* Media Queries */
