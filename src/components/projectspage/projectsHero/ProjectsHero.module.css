@@ -1,0 +1,44 @@
+.projects-page-container {
+  position: relative;
+  background: #fff;
+  padding-top: 8vh;
+}
+
+.projects-hero-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 70vh;
+  min-width: 84vw;
+  padding: 0 8vw;
+}
+
+.projects-hero-text-wrapper {
+  width: 30vw;
+  padding-left: 2vw;
+}
+
+.projects-hero-text-wrapper h1,
+.projects-hero-text-wrapper h2,
+.projects-hero-text-wrapper p {
+  color: #000;
+}
+
+.projects-hero-text-wrapper h1 {
+  font-size: 4rem;
+  font-weight: 1000;
+  padding-top: 2vh;
+}
+
+.projects-hero-text-wrapper h2 {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 300;
+  padding-top: 1vh;
+}
+
+.projects-hero-text-wrapper p {
+  font-size: 0.9rem;
+  font-weight: 100;
+  line-height: 1.5rem;
+  padding-top: 2vh;
+}
