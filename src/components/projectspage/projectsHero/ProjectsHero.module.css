@@ -7,7 +7,7 @@
 .projects-hero-container {
   display: flex;
   flex-direction: row;
-  min-height: 70vh;
+  min-height: 60vh;
   min-width: 84vw;
   padding: 0 8vw;
 }

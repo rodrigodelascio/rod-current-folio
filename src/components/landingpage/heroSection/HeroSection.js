@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "./HeroSection.module.css";
 import profilePicture from "../../../assets/images/rodHexagon.png";
 import { GoPaperAirplane, GoArrowUpRight } from "react-icons/go";
 import { DiGithubAlt } from "react-icons/di";
 import { BiLogoLinkedin } from "react-icons/bi";
+import styles from "./HeroSection.module.css";
 
 const HeroSection = () => {
   return (

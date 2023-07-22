@@ -15,6 +15,7 @@ const ProjectsHero = () => {
             I've worked on a range of personal projects and case studies,
             including websites and apps.
           </p>
+          <hr />
         </div>
       </div>
     </div>
