@@ -19,10 +19,21 @@
 
 .project-image-wrapper {
   width: 40vw;
+  display: flex;
+  justify-content: center;
+}
+
+.project-image-wrapper img {
+  width: 30vw;
+  object-fit: cover;
+  overflow: visible;
 }
 
 .project-description-wrapper {
   width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .project-description-wrapper h3,
@@ -39,11 +50,12 @@
   font-size: 1rem;
   font-weight: 300;
   line-height: 2rem;
-  margin-top: 2vh;
+  margin-top: 3vh;
+  width: 25vw;
 }
 
 .project-description-wrapper button {
-  margin-top: 2vh;
+  margin-top: 3vh;
   background: #8873ef;
   color: #fff;
   padding: 0.9rem 1.1rem;
@@ -54,4 +66,8 @@
   border: none;
   border-radius: 18px;
   cursor: pointer;
+}
+
+.project-description-wrapper button:hover {
+  background: #8873efc3;
 }
