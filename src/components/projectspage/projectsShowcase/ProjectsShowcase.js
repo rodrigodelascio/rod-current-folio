@@ -2,6 +2,8 @@ import React from "react";
 import sunnysideMac from "../../../assets/images/sunnysideMac.png";
 import rodweatherMac from "../../../assets/images/rodWeather.png";
 import rodKryptoMac from "../../../assets/images/rodKryptoMac.png";
+import { GoArrowUpRight } from "react-icons/go";
+import { DiGithubAlt } from "react-icons/di";
 import styles from "./ProjectsShowcase.module.css";
 
 const ProjectsShowcase = () => {
@@ -19,7 +21,23 @@ const ProjectsShowcase = () => {
               and JavaScript, using Flexbox and optimized for the most common
               screen sizes.
             </p>
-            <button>Live Project</button>
+            <a
+              href="https://rodrigodelascio.github.io/Sunnyside-Agency-Website/"
+              target="__blank"
+            >
+              <button>
+                Live Project&nbsp;&nbsp;
+                <GoArrowUpRight />
+              </button>
+            </a>
+            <h5>Tech Stack:</h5>
+            <div className={styles["tech-stack-wrapper"]}>
+              <h6>HTML</h6>
+              <h6>CSS</h6>
+              <h6>JavaScript</h6>
+              <h6>GIT</h6>
+              <h6>GitHub</h6>
+            </div>
           </div>
         </div>
       </div>
@@ -35,7 +53,26 @@ const ProjectsShowcase = () => {
               geolocation and autocomplete functionalities, displaying
               background images related to the weather location.
             </p>
-            <button>Live Project</button>
+            <a
+              href="https://rodrigodelascio.github.io/RodWeather/"
+              target="__blank"
+            >
+              <button>
+                Live Project&nbsp;&nbsp;
+                <GoArrowUpRight />
+              </button>
+            </a>
+            <h5>Tech Stack:</h5>
+            <div className={styles["tech-stack-wrapper"]}>
+              <h6>HTML</h6>
+              <h6>CSS</h6>
+              <h6>JavaScript</h6>
+              <h6>OpenWeather API</h6>
+              <h6>Geo DB Cities API</h6>
+              <h6>Unsplash API</h6>
+              <h6>GIT</h6>
+              <h6>GitHub</h6>
+            </div>
           </div>
         </div>
       </div>
@@ -51,7 +88,26 @@ const ProjectsShowcase = () => {
               featuring the top 10 cryptocurrencies price list, in real time,
               displayed in GBP.
             </p>
-            <button>Live Project</button>
+            <a
+              href="https://rodrigodelascio.github.io/RodKrypto/"
+              target="__blank"
+            >
+              <button>
+                Live Project&nbsp;&nbsp;
+                <GoArrowUpRight />
+              </button>
+            </a>
+            <h5>Tech Stack:</h5>
+            <div className={styles["tech-stack-wrapper"]}>
+              <h6>HTML</h6>
+              <h6>CSS</h6>
+              <h6>JavaScript</h6>
+              <h6>CoinPaprika API</h6>
+              <h6>CoinGecko API</h6>
+              <h6>ExchangeRate API</h6>
+              <h6>GIT</h6>
+              <h6>GitHub</h6>
+            </div>
           </div>
         </div>
       </div>
