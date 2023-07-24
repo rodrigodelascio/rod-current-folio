@@ -3,7 +3,6 @@ import sunnysideMac from "../../../assets/images/sunnysideMac.png";
 import rodweatherMac from "../../../assets/images/rodWeather.png";
 import rodKryptoMac from "../../../assets/images/rodKryptoMac.png";
 import { GoArrowUpRight } from "react-icons/go";
-import { DiGithubAlt } from "react-icons/di";
 import styles from "./ProjectsShowcase.module.css";
 
 const ProjectsShowcase = () => {
