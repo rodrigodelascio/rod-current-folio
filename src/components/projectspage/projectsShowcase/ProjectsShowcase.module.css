@@ -1,11 +1,19 @@
-.projects-showcase-container {
+.projects-showcase-container-odd,
+.projects-showcase-container-even {
   min-height: 75vh;
   min-width: 84vw;
-  background: #fcda69;
   padding: 8vh 8vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.projects-showcase-container-odd {
+  background: #fcda69;
+}
+
+.projects-showcase-container-even {
+  background: #fff;
 }
 
 .project-wrapper {
@@ -51,7 +59,7 @@
   font-weight: 300;
   line-height: 2rem;
   margin-top: 3vh;
-  width: 25vw;
+  width: 30vw;
 }
 
 .project-description-wrapper button {
