@@ -27,6 +27,14 @@ const ContactHero = () => {
 
   return (
     <div className={styles["contact-hero-container"]}>
+      <div className={styles["contact-hero-text-wrapper"]}>
+        <h1>Contact.</h1>
+        <h2>
+          It would be great to hear from you, drop me a message and I'll get
+          back to you ASAP
+        </h2>
+        <hr />
+      </div>
       <div className={styles["form-wrapper"]}>
         <form ref={form} onSubmit={sendEmail}>
           <label>Name</label>
@@ -35,7 +43,11 @@ const ContactHero = () => {
           <input type="email" name="user_email" />
           <label>Message</label>
           <textarea name="message" />
-          <input type="submit" value="Send" />
+          <input
+            type="submit"
+            value="Send"
+            className={styles["form-submit-button"]}
+          />
         </form>
       </div>
     </div>
