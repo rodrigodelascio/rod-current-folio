@@ -1,0 +1,19 @@
+.contact-hero-container {
+  background: #fff;
+  display: flex;
+  position: relative;
+  padding: 14vh 8vw 0 8vw;
+  min-width: 84vw;
+  min-height: 75vh;
+  justify-content: space-between;
+}
+
+.form-wrapper {
+  width: 45vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
