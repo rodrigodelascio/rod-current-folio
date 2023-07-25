@@ -11,7 +11,11 @@ const ProjectsShowcase = () => {
       <div className={styles["projects-showcase-container-odd"]}>
         <div className={styles["project-wrapper"]}>
           <div className={styles["project-image-wrapper"]}>
-            <img src={sunnysideMac} alt="imac screen with sunnyside website" />
+            <img
+              src={sunnysideMac}
+              alt="imac screen with sunnyside website"
+              className={styles["project-image"]}
+            />
           </div>
           <div className={styles["project-description-wrapper"]}>
             <h3>Sunnyside Website</h3>
@@ -43,7 +47,11 @@ const ProjectsShowcase = () => {
       <div className={styles["projects-showcase-container-even"]}>
         <div className={styles["project-wrapper"]}>
           <div className={styles["project-image-wrapper"]}>
-            <img src={rodweatherMac} alt="imac screen with rodweather app" />
+            <img
+              src={rodweatherMac}
+              alt="imac screen with rodweather app"
+              className={styles["project-image"]}
+            />
           </div>
           <div className={styles["project-description-wrapper"]}>
             <h3>RodWeather App</h3>
@@ -78,7 +86,11 @@ const ProjectsShowcase = () => {
       <div className={styles["projects-showcase-container-odd"]}>
         <div className={styles["project-wrapper"]}>
           <div className={styles["project-image-wrapper"]}>
-            <img src={rodKryptoMac} alt="imac screen with rodkrypto app" />
+            <img
+              src={rodKryptoMac}
+              alt="imac screen with rodkrypto app"
+              className={styles["project-image"]}
+            />
           </div>
           <div className={styles["project-description-wrapper"]}>
             <h3>RodKrypto App</h3>

@@ -27,18 +27,16 @@
 
 .project-image-wrapper {
   width: 40vw;
-  display: flex;
-  justify-content: center;
+  align-self: center;
 }
 
-.project-image-wrapper img {
-  width: 30vw;
-  object-fit: cover;
-  overflow: visible;
+.project-image {
+  width: 100%;
+  height: auto;
 }
 
 .project-description-wrapper {
-  width: 40vw;
+  width: 38vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,20 +49,20 @@
 }
 
 .project-description-wrapper h3 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 900;
 }
 
 .project-description-wrapper p {
   font-size: 1rem;
   font-weight: 300;
-  line-height: 2rem;
-  margin-top: 3vh;
-  width: 30vw;
+  line-height: 1.75rem;
+  margin-top: 2.5vh;
+  width: 35vw;
 }
 
 .project-description-wrapper button {
-  margin-top: 3vh;
+  margin-top: 2.5vh;
   background: #8873ef;
   color: #fff;
   padding: 0.9rem 1.1rem;
@@ -85,7 +83,7 @@
 }
 
 .project-description-wrapper h5 {
-  margin-top: 3vh;
+  margin-top: 2.5vh;
   font-size: 1.25rem;
   font-weight: 600;
 }
@@ -94,7 +92,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 30vw;
+  width: 35vw;
   margin-top: 1.5vh;
 }
 
@@ -107,4 +105,100 @@
   padding: 0.3rem 0.5rem;
   font-size: 0.75rem;
   font-weight: 500;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+  .project-description-wrapper h3 {
+    font-size: 1.5rem;
+  }
+
+  .project-description-wrapper p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-top: 2vh;
+  }
+
+  .project-description-wrapper button {
+    margin-top: 2vh;
+    font-size: 0.9rem;
+    width: 9rem;
+    height: 3rem;
+  }
+
+  .project-description-wrapper h5 {
+    margin-top: 2vh;
+    font-size: 1rem;
+  }
+
+  .tech-stack-wrapper {
+    margin-top: 1vh;
+  }
+
+  .tech-stack-wrapper h6 {
+    padding: 0.2rem 0.4rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects-showcase-container-odd,
+  .projects-showcase-container-even {
+    padding: 8vh 4vw;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-wrapper {
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-image-wrapper {
+    width: 80vw;
+    margin-bottom: 6vh;
+  }
+
+  .project-description-wrapper {
+    width: 70vw;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .project-description-wrapper h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .project-description-wrapper p {
+    font-size: 1rem;
+    line-height: 2rem;
+    width: 75vw;
+    text-align: center;
+  }
+
+  .project-description-wrapper button {
+    margin-top: 2.5vh;
+    padding: 0.9rem 1.1rem;
+    font-size: 1rem;
+    width: 10rem;
+    height: 3.5rem;
+  }
+
+  .project-description-wrapper h5 {
+    font-size: 1.5rem;
+  }
+
+  .tech-stack-wrapper {
+    width: 75vw;
+    margin-top: 1.5vh;
+    justify-content: center;
+  }
+
+  .tech-stack-wrapper h6 {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.85rem;
+  }
 }
