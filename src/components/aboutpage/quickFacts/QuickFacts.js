@@ -15,7 +15,7 @@ const QuickFacts = () => {
             In 2000, when I did a Level III Certificate Computer Science course
             where I learned Visual Basic and Delphi. Unfortunately, I had to put
             the brakes on it when going to university due to personal
-            circumstances, but that is a long story for another time... 📖
+            circumstances, but that is a story for another time... 📖
           </p>
 
           <h3>Education</h3>
