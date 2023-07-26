@@ -2,10 +2,18 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { DiGithubAlt } from "react-icons/di";
 import { BiLogoLinkedin } from "react-icons/bi";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import styles from "./ContactHero.module.css";
 
 const ContactHero = () => {
   const form = useRef();
+
+  const notifySuccess = () =>
+    toast.success("Message successfully sent!", {
+      position: "top-right",
+    });
+  const notifyError = (err) => toast.error(`Message not sent! ${err.text}`);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -20,9 +28,10 @@ const ContactHero = () => {
       .then(
         (result) => {
           console.log(result.text);
+          notifySuccess();
         },
         (error) => {
-          console.log(error.text);
+          notifyError(error);
         }
       );
 
@@ -71,6 +80,7 @@ const ContactHero = () => {
           />
         </form>
       </div>
+      <ToastContainer />
     </div>
   );
 };
