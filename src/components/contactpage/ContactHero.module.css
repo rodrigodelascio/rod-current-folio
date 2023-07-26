@@ -39,9 +39,52 @@
   padding-top: 2vh;
 }
 
+.landing-socials-container {
+  display: flex;
+  margin-top: 2vh;
+}
+
+.landing-socials-container p {
+  font-size: 0.7rem;
+  color: #000;
+  width: auto;
+}
+
+.socials-logo-wrapper {
+  width: 4rem;
+  height: 4rem;
+  background: #ededed;
+  border-radius: 50%;
+  margin-left: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.linkedIn {
+  scale: 175%;
+  color: #000;
+}
+
+.gitHub {
+  scale: 225%;
+  color: #000;
+}
+
+.socials-logo-wrapper:hover {
+  background: #8873ef;
+  transition: 0.5s;
+}
+
+.socials-logo-wrapper:hover .linkedIn,
+.socials-logo-wrapper:hover .gitHub {
+  color: #fff;
+}
+
 .form-wrapper {
   width: 40vw;
-  padding-top: 4vh;
+  padding-top: 2.5vh;
   padding-right: 2vw;
 }
 
@@ -62,6 +105,7 @@ textarea {
   border: solid #000 0.1rem;
   border-radius: 5px;
   margin-bottom: 2vh;
+  padding: 0.5rem;
 }
 
 input {
@@ -69,7 +113,8 @@ input {
 }
 
 textarea {
-  height: 8rem;
+  height: 10rem;
+  resize: none;
 }
 
 input:focus,
@@ -83,6 +128,7 @@ textarea:focus {
   border: none;
   cursor: pointer;
   margin-top: 1vh;
+  height: 2.5rem;
 }
 
 .form-submit-button:hover {
