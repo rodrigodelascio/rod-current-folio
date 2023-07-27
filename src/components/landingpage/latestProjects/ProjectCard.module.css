@@ -11,24 +11,31 @@
   font-size: 1.75rem;
   font-weight: 600;
   padding: 0 2rem;
+  position: relative;
+  z-index: 5;
 }
 
 .card-container h5 {
   padding: 0 2rem;
+  position: relative;
+  z-index: 5;
 }
 
 .card-container p {
   padding: 0 2rem;
+  position: relative;
+  z-index: 5;
 }
 
 .card-img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   transform: rotate(-25deg);
   position: absolute;
-  bottom: -15%;
   right: -10%;
   opacity: 90%;
+  z-index: 1;
+  padding-top: 2vh;
 }
 
 .card-container:hover {
@@ -54,7 +61,7 @@
   }
 
   .card-img {
-    bottom: -15%;
+    bottom: -30%;
     right: -25%;
   }
 }

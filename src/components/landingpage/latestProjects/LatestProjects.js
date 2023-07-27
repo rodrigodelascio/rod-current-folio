@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ProjectCard from "./ProjectCard";
-import rodWeather from "../../../assets/images/rodWeatherMockup.png";
-import rodKrypto from "../../../assets/images/rodKrypto.png";
+import rodWeather from "../../../assets/images/rodWeatherShowcase.png";
+import rodKrypto from "../../../assets/images/rodKryptoShowcase.png";
 import sunnyside from "../../../assets/images/sunnyside-website-mockup.png";
 import styles from "./LatestProjects.module.css";
 import { GoArrowUpRight } from "react-icons/go";
