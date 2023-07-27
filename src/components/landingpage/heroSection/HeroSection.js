@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import profilePicture from "../../../assets/images/rodHexagon.png";
 import { GoPaperAirplane, GoArrowUpRight } from "react-icons/go";
 import { DiGithubAlt } from "react-icons/di";
-import { BiLogoLinkedin, BiSolidErrorAlt } from "react-icons/bi";
+import { BiLogoLinkedin } from "react-icons/bi";
 import { Slide } from "react-awesome-reveal";
 import styles from "./HeroSection.module.css";
 
