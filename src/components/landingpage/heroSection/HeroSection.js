@@ -15,11 +15,11 @@ const HeroSection = () => {
         <h3>Web Developer</h3>
 
         <div className={styles["hero-buttons-container"]}>
-          <a href="mailto:rodrigodelascio@gmail.com">
+          <Link to="/contact">
             <button className={styles["button-contact"]}>
               Let's Talk <GoPaperAirplane className={styles.airplane} />
             </button>
-          </a>
+          </Link>
           <Link to="/projects">
             <button className={styles["button-work"]}>
               My Work <GoArrowUpRight className={styles.arrow} />

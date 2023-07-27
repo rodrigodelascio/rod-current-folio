@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/logoRod.png";
 import pdf from "../../assets/files/rodrigoCV.pdf";
 import { GoArrowUpRight } from "react-icons/go";
@@ -12,6 +13,14 @@ const Navbar = () => {
     if (isMobile) {
       setIsMobile(!isMobile);
     }
+  };
+
+  const navActiveStyle = ({ isActive }) => {
+    return {
+      color: isActive ? "#8873ef" : "",
+      textDecoration: isActive ? "underline #8873ef 0.25rem" : "",
+      textUnderlineOffset: isActive ? "0.5rem" : "",
+    };
   };
 
   return (
@@ -29,15 +38,30 @@ const Navbar = () => {
               : `${styles["inner-links-container"]} ${styles["responsive-navbar"]}`
           }
         >
-          <a href="/about" onClick={clickToHide}>
+          <NavLink
+            to="/about"
+            onClick={clickToHide}
+            className={styles.navlinks}
+            style={navActiveStyle}
+          >
             About
-          </a>
-          <a href="/projects" onClick={clickToHide}>
+          </NavLink>
+          <NavLink
+            to="/projects"
+            onClick={clickToHide}
+            className={styles.navlinks}
+            style={navActiveStyle}
+          >
             Projects
-          </a>
-          <a href="/contact" onClick={clickToHide}>
+          </NavLink>
+          <NavLink
+            to="/contact"
+            onClick={clickToHide}
+            className={styles.navlinks}
+            style={navActiveStyle}
+          >
             Contact
-          </a>
+          </NavLink>
           <CgClose
             size={30}
             className={styles["hamburger-close-icon"]}
