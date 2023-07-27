@@ -19,31 +19,46 @@ const LatestProjects = () => {
         <h2>Latest</h2>
         <h3>Projects</h3>
         <div className={styles["cards-container"]}>
-          <ProjectCard
-            className={firstCard}
-            projectName={"Sunnyside"}
-            projectDescription={"Creative Agency Website"}
-            projectTags={"HTML | CSS | JavaScript "}
-            cardImage={<img src={sunnyside} alt="sunnyside website mockup" />}
-          />
-          <ProjectCard
-            className={secondCard}
-            projectName={"RodWeather"}
-            projectDescription={"Weather App"}
-            projectTags={
-              "HTML | CSS | JavaScript | OpenWeather API | Geo DB Cities API | Unsplash API "
-            }
-            cardImage={<img src={rodWeather} alt="rodWeather app mockup" />}
-          />
-          <ProjectCard
-            className={thirdCard}
-            projectName={"RodKrypto"}
-            projectDescription={"Cryptocurrency App"}
-            projectTags={
-              "HTML | CSS | JavaScript | CoinPaprika API | CoinGecko API | ExchangeRate API "
-            }
-            cardImage={<img src={rodKrypto} alt="rodWeather app mockup" />}
-          />
+          <a
+            href="https://rodrigodelascio.github.io/Sunnyside-Agency-Website/"
+            target="__blank"
+          >
+            <ProjectCard
+              className={firstCard}
+              projectName={"Sunnyside"}
+              projectDescription={"Creative Agency Website"}
+              projectTags={"HTML | CSS | JavaScript "}
+              cardImage={<img src={sunnyside} alt="sunnyside website mockup" />}
+            />
+          </a>
+          <a
+            href="https://rodrigodelascio.github.io/RodWeather/"
+            target="__blank"
+          >
+            <ProjectCard
+              className={secondCard}
+              projectName={"RodWeather"}
+              projectDescription={"Weather App"}
+              projectTags={
+                "HTML | CSS | JavaScript | OpenWeather API | Geo DB Cities API | Unsplash API "
+              }
+              cardImage={<img src={rodWeather} alt="rodWeather app mockup" />}
+            />
+          </a>
+          <a
+            href="https://rodrigodelascio.github.io/RodKrypto/"
+            target="__blank"
+          >
+            <ProjectCard
+              className={thirdCard}
+              projectName={"RodKrypto"}
+              projectDescription={"Cryptocurrency App"}
+              projectTags={
+                "HTML | CSS | JavaScript | CoinPaprika API | CoinGecko API | ExchangeRate API "
+              }
+              cardImage={<img src={rodKrypto} alt="rodWeather app mockup" />}
+            />
+          </a>
         </div>
         <Link to="/projects">
           <div className={styles["button-container"]}>
