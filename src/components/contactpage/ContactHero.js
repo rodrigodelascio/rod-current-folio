@@ -9,11 +9,14 @@ import styles from "./ContactHero.module.css";
 const ContactHero = () => {
   const form = useRef();
 
-  const notifySuccess = () =>
-    toast.success("Message successfully sent!", {
+  const notifySuccess = (res) =>
+    toast.success(`Message successfully sent! ${res.text}`, {
       position: "top-right",
     });
-  const notifyError = (err) => toast.error(`Message not sent! ${err.text}`);
+  const notifyError = (err) =>
+    toast.error(`Message not sent! ${err.text}`, {
+      position: "top-right",
+    });
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -27,8 +30,7 @@ const ContactHero = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
-          notifySuccess();
+          notifySuccess(result);
         },
         (error) => {
           notifyError(error);
