@@ -10,8 +10,8 @@ import styles from "./HeroSection.module.css";
 const HeroSection = () => {
   return (
     <div className={styles["section-container"]}>
-      <Slide triggerOnce>
-        <div className={styles["hero-text-container"]}>
+      <div className={styles["hero-text-container"]}>
+        <Slide triggerOnce>
           <p>Hi there, my name is</p>
           <h2>Rodrigo De Lascio</h2>
           <h3>Web Developer</h3>
@@ -46,8 +46,8 @@ const HeroSection = () => {
               <DiGithubAlt className={styles.gitHub} />
             </a>
           </div>
-        </div>
-      </Slide>
+        </Slide>
+      </div>
 
       <Slide triggerOnce direction="right">
         <div className={styles["profile-pic-container"]}>
@@ -68,11 +68,11 @@ const HeroSection = () => {
             alt="rodrigo de lascio"
           />
         </div>
+        <div className={styles["scroll-down-wrapper"]}>
+          <p></p>
+          <h6>scroll down</h6>
+        </div>
       </Slide>
-      <div className={styles["scroll-down-wrapper"]}>
-        <p></p>
-        <h6>scroll down</h6>
-      </div>
     </div>
   );
 };
