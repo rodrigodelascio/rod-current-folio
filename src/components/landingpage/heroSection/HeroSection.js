@@ -4,6 +4,7 @@ import profilePicture from "../../../assets/images/rodHexagon.png";
 import { GoPaperAirplane, GoArrowUpRight } from "react-icons/go";
 import { DiGithubAlt } from "react-icons/di";
 import { BiLogoLinkedin } from "react-icons/bi";
+import { GoChevronDown } from "react-icons/go";
 import styles from "./HeroSection.module.css";
 
 const HeroSection = () => {
@@ -63,6 +64,10 @@ const HeroSection = () => {
           className={styles["profile-pic"]}
           alt="rodrigo de lascio"
         />
+      </div>
+      <div className={styles["scroll-down-wrapper"]}>
+        <p></p>
+        <h6>scroll down</h6>
       </div>
     </div>
   );
