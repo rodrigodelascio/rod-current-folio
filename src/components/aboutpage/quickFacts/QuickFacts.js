@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 import styles from "./QuickFacts.module.css";
 
 const QuickFacts = () => {
@@ -7,7 +7,7 @@ const QuickFacts = () => {
     <div>
       <div className={styles["quick-facts-container"]}>
         <div className={styles["quick-facts-column-one"]}>
-          <Slide>
+          <Slide triggerOnce>
             <h2>Quick facts</h2>
             <h3>Home</h3>
             <p>Walton-on-Thames, Surrey, UK. 🇬🇧</p>
@@ -38,7 +38,7 @@ const QuickFacts = () => {
         </div>
 
         <div className={styles["quick-facts-column-two"]}>
-          <Slide direction="right">
+          <Slide direction="right" triggerOnce>
             <h2 className={styles["white-space"]}>&nbsp;</h2>
             <h3>Hobbies</h3>
             <p>
