@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./SayHello.module.css";
 import { MdEmail, MdLocationCity } from "react-icons/md";
 import { GoArrowUpRight } from "react-icons/go";
+import { Link } from "react-router-dom";
 import { Fade, Slide } from "react-awesome-reveal";
 
 const SayHello = () => {
@@ -47,9 +48,9 @@ const SayHello = () => {
         <Slide direction="right" triggerOnce>
           <div className={styles["round-wrapper"]}>
             <p>Say Hello!</p>
-            <a className={styles["button-wrapper"]} href="/contact">
+            <Link className={styles["button-wrapper"]} to="/contact">
               <GoArrowUpRight className={styles.arrow} />
-            </a>
+            </Link>
             <div className={styles.quote}>
               <p>
                 <em>

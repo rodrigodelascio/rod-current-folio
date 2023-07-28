@@ -46,7 +46,7 @@
   color: #fff;
 }
 
-.footer-links a:hover {
+.footerNav:hover {
   cursor: pointer;
   opacity: 50%;
   transition: 0.5s;

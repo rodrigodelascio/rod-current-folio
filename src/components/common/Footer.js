@@ -6,7 +6,6 @@ import styles from "./Footer.module.css";
 const Footer = () => {
   return (
     <div>
-      {/* <div className={styles.border}></div> */}
       <div className={styles["main-footer-container"]}>
         <div className={styles["logo-copyright-wrapper"]}>
           <Link to="/">
@@ -15,9 +14,15 @@ const Footer = () => {
           <p>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#169; 2023 Rodrigo De Lascio</p>
         </div>
         <div className={styles["footer-links"]}>
-          <a href="/about">About</a>
-          <a href="/projects">Projects</a>
-          <a href="/contact">Contact</a>
+          <Link to="/about" className={styles.footerNav}>
+            About
+          </Link>
+          <Link to="/projects" className={styles.footerNav}>
+            Projects
+          </Link>
+          <Link to="/contact" className={styles.footerNav}>
+            Contact
+          </Link>
         </div>
         <p className={styles.email}>
           <a href="mailto:rodrigodelascio@gmail.com">
