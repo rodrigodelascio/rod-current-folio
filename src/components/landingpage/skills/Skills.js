@@ -40,7 +40,7 @@ const Skills = () => {
         </div>
       </div>
       <div className={styles["experience-section-container"]}>
-        <Fade cascade triggerOnce>
+        <Fade cascade triggerOnce duration={400}>
           <h4>Experience</h4>
           <div className={styles["experience-inner-wrapper"]}>
             <h5>
