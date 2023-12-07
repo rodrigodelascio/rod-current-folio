@@ -2,7 +2,7 @@
   background: #fcda69;
   display: flex;
   position: relative;
-  padding: 8vh 8vw 0 8vw;
+  padding: 8vh 8vw;
   min-width: 84vw;
   min-height: 90vh;
   justify-content: space-between;

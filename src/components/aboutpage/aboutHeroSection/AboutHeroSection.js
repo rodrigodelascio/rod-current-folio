@@ -20,11 +20,12 @@ const AboutHeroSection = () => {
               Walton-on-Thames, UK
             </h2>
             <p>
-              Having come from a diverse background of studies and work
-              experiences, I decided to make a career change after over a decade
-              working in marketing and as a linguist. Passionate about
-              technology, I love adding to my tech stack, improving myself, and
-              been working on front-end projects since 2022.
+              Versatile professional with a rich background, currently pursuing
+              a computer science degree. A diverse work experience, showcasing
+              adaptability and a strong foundation in problem solving. Committed
+              to a career transition, with a unique blend of skills, including
+              creativity, analytical thinking, and an unwavering dedication to
+              learning. I've been working on front-end projects since 2022.
             </p>
             <hr />
             <div className={styles["past-present-future-container"]}>
@@ -37,7 +38,7 @@ const AboutHeroSection = () => {
                   I have studied the foundations of Computer Science at a young
                   age and moved away from the area due to personal
                   circumstances. I have achieved a BA in Journalism and a Beng
-                  in Civil Engineering afterwards.
+                  in Civil Engineering along the way.
                 </p>
               </div>
               <div className={styles["past-present-future-wrapper"]}>
@@ -47,9 +48,9 @@ const AboutHeroSection = () => {
                 </h3>
                 <p>
                   I found my way back to computing and as a lifelong learner,
-                  after recently attending a Software Development Bootcamp, I
-                  decided to go back to university to enhance my knowledge and
-                  become a better professional.
+                  after attending a Software Development Bootcamp, I decided to
+                  go back to university to enhance my knowledge and become a
+                  professional developer.
                 </p>
               </div>
             </div>

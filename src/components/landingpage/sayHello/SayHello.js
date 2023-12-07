@@ -52,14 +52,14 @@ const SayHello = () => {
               <GoArrowUpRight className={styles.arrow} />
             </Link>
             <div className={styles.quote}>
-              <p>
+              {/* <p>
                 <em>
                   "I am the master of my fate, <br />I am the captain of my
                   soul",
                 </em>
                 <br />
                 William Ernest Henley
-              </p>
+              </p> */}
             </div>
           </div>
         </Slide>

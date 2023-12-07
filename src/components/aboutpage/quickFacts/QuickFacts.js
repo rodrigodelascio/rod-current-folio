@@ -57,10 +57,10 @@ const QuickFacts = () => {
             <h3>Favourite quote</h3>
             <p>
               <em>
-                "I know I was born and I know that I'll die, the in-between is
-                mine, I am mine"
+                "It ain't about how hard you hit. It's about how hard you can
+                get hit and keep moving forward",
               </em>
-              , by Eddie Vedder. 🤘🎸
+              &nbsp;by Rocky Balboa 🥊
             </p>
           </Slide>
         </div>
