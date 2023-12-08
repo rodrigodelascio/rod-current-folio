@@ -1,6 +1,7 @@
 {
   "name": "rodfolio",
   "version": "0.1.0",
+  "homepage": "https://rodrigodelascio.co.uk/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
