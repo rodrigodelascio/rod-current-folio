@@ -53,14 +53,14 @@ const HeroSection = () => {
         <div className={styles["profile-pic-container"]}>
           <p>
             <em>
-              "It ain't about how hard you hit.
+              "People who are crazy enough
               <br />
-              It's about how hard you can get
+              to think they can change the world
               <br />
-              hit and keep moving forward",
+              are the ones that actually do",
             </em>
             <br />
-            Rocky Balboa
+            Steve Jobs
           </p>
           <img
             src={profilePicture}
