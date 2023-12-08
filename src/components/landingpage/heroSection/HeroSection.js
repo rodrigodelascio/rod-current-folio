@@ -57,7 +57,7 @@ const HeroSection = () => {
               <br />
               to think they can change the world
               <br />
-              are the ones that actually do",
+              are the ones that actually do"
             </em>
             <br />
             Steve Jobs
