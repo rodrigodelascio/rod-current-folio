@@ -14,7 +14,7 @@ My personal portfolio, consisting of a landing page, an about me page, a showcas
 
 ## Screenshot
 
-![](./src/assets/images/portfolioShowcase.mp4)
+![](./src/assets/images/folioFullPage.png)
 
 ## Link
 
