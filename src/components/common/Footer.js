@@ -4,6 +4,8 @@ import logo from "../../assets/images/logoRodWhite.png";
 import styles from "./Footer.module.css";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div>
       <div className={styles["main-footer-container"]}>
@@ -11,7 +13,10 @@ const Footer = () => {
           <Link to="/">
             <img src={logo} alt="black logo" />
           </Link>
-          <p>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#169; 2023 Rodrigo De Lascio</p>
+          <p>
+            |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#169; {currentYear} Rodrigo De
+            Lascio
+          </p>
         </div>
         <div className={styles["footer-links"]}>
           <Link to="/about" className={styles.footerNav}>
