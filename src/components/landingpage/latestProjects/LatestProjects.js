@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ProjectCard from "./ProjectCard";
 import rodWeather from "../../../assets/images/rodWeatherShowcase.png";
-import rodKrypto from "../../../assets/images/rodKryptoShowcase.png";
 import sunnyside from "../../../assets/images/sunnyside-website-mockup.png";
+import letItShine from "../../../assets/images/letItShineScreens.png";
 import styles from "./LatestProjects.module.css";
 import { Fade, Zoom } from "react-awesome-reveal";
 import { GoArrowUpRight } from "react-icons/go";
@@ -29,6 +29,17 @@ const LatestProjects = () => {
             >
               <ProjectCard
                 className={firstCard}
+                projectName={"Let It Shine"}
+                projectDescription={"Cleaning Company Website"}
+                projectTags={"React | React Router | CSS"}
+                cardImage={
+                  <img src={letItShine} alt="sunnyside website mockup" />
+                }
+              />
+            </a>
+            <a href="https://theletitshine.co.uk/" target="__blank">
+              <ProjectCard
+                className={secondCard}
                 projectName={"Sunnyside"}
                 projectDescription={"Creative Agency Website"}
                 projectTags={"HTML | CSS | JavaScript"}
@@ -38,31 +49,17 @@ const LatestProjects = () => {
               />
             </a>
             <a
-              href="https://rodrigodelascio.github.io/RodWeather/"
+              href="https://rodrigodelascio.github.io/RodKrypto/"
               target="__blank"
             >
               <ProjectCard
-                className={secondCard}
+                className={thirdCard}
                 projectName={"RodWeather"}
                 projectDescription={"Weather App"}
                 projectTags={
                   "HTML | CSS | JavaScript | OpenWeather API | Geo DB Cities API | Unsplash API"
                 }
                 cardImage={<img src={rodWeather} alt="rodWeather app mockup" />}
-              />
-            </a>
-            <a
-              href="https://rodrigodelascio.github.io/RodKrypto/"
-              target="__blank"
-            >
-              <ProjectCard
-                className={thirdCard}
-                projectName={"RodKrypto"}
-                projectDescription={"Cryptocurrency App"}
-                projectTags={
-                  "HTML | CSS | JavaScript | CoinPaprika API | CoinGecko API | ExchangeRate API"
-                }
-                cardImage={<img src={rodKrypto} alt="rodWeather app mockup" />}
               />
             </a>
           </Zoom>
