@@ -23,21 +23,22 @@ const LatestProjects = () => {
         </Fade>
         <div className={styles["cards-container"]}>
           <Zoom cascade triggerOnce>
-            <a
-              href="https://rodrigodelascio.github.io/Sunnyside-Agency-Website/"
-              target="__blank"
-            >
+            <a href="https://theletitshine.co.uk/" target="__blank">
               <ProjectCard
                 className={firstCard}
                 projectName={"Let It Shine"}
                 projectDescription={"Cleaning Company Website"}
                 projectTags={"React | React Router | CSS"}
                 cardImage={
-                  <img src={letItShine} alt="sunnyside website mockup" />
+                  <img src={letItShine} alt="let it shine website mockup" />
                 }
               />
             </a>
-            <a href="https://theletitshine.co.uk/" target="__blank">
+
+            <a
+              href="https://rodrigodelascio.github.io/Sunnyside-Agency-Website/"
+              target="__blank"
+            >
               <ProjectCard
                 className={secondCard}
                 projectName={"Sunnyside"}
@@ -48,8 +49,9 @@ const LatestProjects = () => {
                 }
               />
             </a>
+
             <a
-              href="https://rodrigodelascio.github.io/RodKrypto/"
+              href="https://rodrigodelascio.github.io/RodWeather/"
               target="__blank"
             >
               <ProjectCard
