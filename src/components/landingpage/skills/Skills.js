@@ -18,22 +18,19 @@ const Skills = () => {
             <Fade cascade triggerOnce>
               <h4>Skills</h4>
               <div className={styles["skills-cards-container"]}>
-                <div className={styles["skills-card"]}>JavaScript</div>
                 <div className={styles["skills-card"]}>React</div>
                 <div className={styles["skills-card"]}>Node.js</div>
-                <div className={styles["skills-card"]}>Express.js</div>
-                <div className={styles["skills-card"]}>jQuery</div>
+                <div className={styles["skills-card"]}>JavaScript</div>
                 <div className={styles["skills-card"]}>CSS</div>
                 <div className={styles["skills-card"]}>Bootstrap</div>
                 <div className={styles["skills-card"]}>Tailwind CSS</div>
                 <div className={styles["skills-card"]}>Bulma</div>
                 <div className={styles["skills-card"]}>HTML</div>
-                <div className={styles["skills-card"]}>Figma</div>
+                <div className={styles["skills-card"]}>Java</div>
                 <div className={styles["skills-card"]}>Git</div>
                 <div className={styles["skills-card"]}>Github</div>
-                <div className={styles["skills-card"]}>Python</div>
-                <div className={styles["skills-card"]}>MySQL</div>
-                <div className={styles["skills-card"]}>MongoDB</div>
+                <div className={styles["skills-card"]}>SQL</div>
+                <div className={styles["skills-card"]}>Figma</div>
               </div>
             </Fade>
           </div>
